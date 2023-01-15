@@ -1,0 +1,21 @@
+{
+  "name": "luis-theme",
+  "displayName": "Luis's Theme",
+  "description": "My personal color schema themes for vscode",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Luis's Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Luis's Theme-color-theme.json"
+      }
+    ]
+  }
+}
