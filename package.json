@@ -14,8 +14,17 @@
       {
         "label": "Luis's Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/Luis's Theme-color-theme.json"
+        "path": "./themes/dark-theme.json"
       }
     ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^2.16.0",
+    "nodemon": "^2.0.20"
+  },
+  "scripts": {
+    "start": "nodemon --watch src src/index.js",
+    "build": "node src/index.js && mkdir -p build",
+    "package": "vsce package -o ./build/github-vscode-theme.vsix"
   }
 }
