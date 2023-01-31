@@ -13,29 +13,35 @@ const background =
 
 const lightBlue =
 {
-  light_blue_600: '#1ea8fc',
-  light_blue_500: '#5dcdfd'
-
+  light_blue_900: '#0c4a6e',
+  light_blue_800: '#075985',
+  light_blue_700: '#0369a1',
+  light_blue_600: '#0284c7',
+  light_blue_500: '#0ea5e9',
+  light_blue_400: '#38bdf8',
+  light_blue_300: '#7dd3fc',
+  light_blue_200: '#bae6fd',
+  light_blue_100: '#e0f2fe',
+  light_blue_50: '#f0f9ff'
 };
 
 const darkBlue =
 {
-  dark_blue_500: '#0062ff'
+  dark_blue_500: '#7aa2f7'
 };
 
 const blue =
 {
-  blue_950: '#030f17',
-  blue_900: '#145a8d',
-  blue_800: '#1869a5',
-  blue_700: '#1b78bc',
-  blue_600: '#1f87d4',
-  blue_500: '#2296EB',
-  blue_400: '#38a1ed',
-  blue_300: '#4eabef',
-  blue_200: '#64b6f1',
-  blue_100: '#7ac0f3',
-  blue_50: '#91cbf5'
+  blue_900: '#1e3a8a',
+  blue_800: '#1e40af',
+  blue_700: '#1d4ed8',
+  blue_600: '#2563eb',
+  blue_500: '#3b82f6',
+  blue_400: '#60a5fa',
+  blue_300: '#93c5fd',
+  blue_200: '#bfdbfe',
+  blue_100: '#dbeafe',
+  blue_50: '#eff6ff'
 };
 
 const gray =
@@ -94,6 +100,20 @@ const warning =
   warning_50: '#fefce8'
 };
 
+const lightSuccess =
+{
+  light_success_900: '#064e3b',
+  light_success_800: '#065f46',
+  light_success_700: '#047857',
+  light_success_600: '#059669',
+  light_success_500: '#10b981',
+  light_success_400: '#2dd4bf',
+  light_success_300: '#6ee7b7',
+  light_success_200: '#a7f3d0',
+  light_success_100: '#d1fae5',
+  light_success_50: '#ecfdf5'
+};
+
 const success =
 {
   success_900: '#14532d',
@@ -108,6 +128,36 @@ const success =
   success_50: '#f0fdf4'
 };
 
+const purple =
+{
+  purple_900: '#4c1d95',
+  purple_800: '#6b21a8',
+  purple_700: '#7e22ce',
+  purple_600: '#9333ea',
+  purple_500: '#a855f7',
+  purple_400: '#c084fc',
+  purple_300: '#d8b4fe',
+  purple_200: '#e9d5ff',
+  purple_100: '#f3e8ff',
+  purple_50: '#faf5ff'
+};
+
+const orange =
+{
+  orange_900: '#7c2d12',
+  orange_800: '#9a3412',
+  orange_700: '#c2410c',
+  orange_600: '#ea580c',
+  orange_500: '#f97316',
+  orange_400: '#fb923c',
+  orange_300: '#fdba74',
+  orange_200: '#fed7aa',
+  orange_100: '#ffedd5',
+  orange_50: '#fff7ed'
+};
+
+const transparent = '#00000000';
+
 module.exports =
 {
   blackWhite,
@@ -119,5 +169,9 @@ module.exports =
   warning,
   success,
   lightBlue,
-  darkBlue
+  darkBlue,
+  lightSuccess,
+  transparent,
+  purple,
+  orange
 };
