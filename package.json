@@ -3,28 +3,42 @@
   "displayName": "Luis's Theme",
   "description": "My personal color schema themes for vscode",
   "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.74.0"
-  },
   "categories": [
     "Themes"
   ],
+  "engines": {
+    "vscode": "^1.74.0",
+    "node": "^14.18.0 || >=16.0.0",
+    "npm": "please-use-pnpm",
+    "yarn": "please-use-pnpm",
+    "pnpm": ">=7.14.0"
+  },
+  "scripts": {
+    "preinstall": "npx only-allow pnpm",
+    "type-check": "tsc --pretty --noEmit",
+    "lint": "eslint --ext .ts . --fix",
+    "dev": "nodemon -T ./src/**/*.ts",
+    "package": "build & vsce package -o ./dist/github-vscode-theme.vsix"
+  },
   "contributes": {
     "themes": [
       {
         "label": "Luis's Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-theme.json"
+        "path": "./dist/generated/dark-theme.json"
       }
     ]
   },
   "devDependencies": {
+    "@types/node": "^18.15.11",
+    "@typescript-eslint/eslint-plugin": "^5.57.1",
+    "@typescript-eslint/parser": "^5.57.1",
     "@vscode/vsce": "^2.16.0",
-    "nodemon": "^2.0.20"
-  },
-  "scripts": {
-    "start": "nodemon --watch src src/index.js",
-    "build": "node src/index.js && mkdir -p build",
-    "package": "vsce package -o ./build/github-vscode-theme.vsix"
+    "eslint": "^8.37.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.0",
+    "nodemon": "^2.0.20",
+    "rimraf": "^4.4.1",
+    "typescript": "^5.0.3"
   }
 }

@@ -1,11 +1,10 @@
-const base =
-{
+const base = {
   black: '#000',
-  white: '#fff'
+  white: '#fff',
+  transparent: '#00000000'
 };
 
-const background =
-{
+const background = {
   background_900: '#0b0c0f',
   background_800: '#101114',
   background_700: '#15181d',
@@ -13,8 +12,7 @@ const background =
   background_500: '#39414F'
 };
 
-const cyan =
-{
+const cyan = {
   cyan_900: '#164E63',
   cyan_800: '#155E75',
   cyan_700: '#0E7490',
@@ -27,22 +25,33 @@ const cyan =
   cyan_50: '#ECFEFF'
 };
 
-const blue =
-{
-  blue_900: '#1e3a8a',
-  blue_800: '#1e40af',
-  blue_700: '#1d4ed8',
-  blue_600: '#2563eb',
-  blue_500: '#3b82f6',
-  blue_400: '#60a5fa',
-  blue_300: '#93c5fd',
-  blue_200: '#bfdbfe',
-  blue_100: '#dbeafe',
-  blue_50: '#eff6ff'
+const information = {
+  information_900: '#1e3a8a',
+  information_800: '#1e40af',
+  information_700: '#1d4ed8',
+  information_600: '#2563eb',
+  information_500: '#3b82f6',
+  information_400: '#60a5fa',
+  information_300: '#93c5fd',
+  information_200: '#bfdbfe',
+  information_100: '#dbeafe',
+  information_50: '#eff6ff'
 };
 
-const gray =
-{
+const indigo = {
+  indigo_900: '#312E81',
+  indigo_800: '#3730A3',
+  indigo_700: '#4338CA',
+  indigo_600: '#4F46E5',
+  indigo_500: '#6366F1',
+  indigo_400: '#818CF8',
+  indigo_300: '#A5B4FC',
+  indigo_200: '#C7D2FE',
+  indigo_100: '#E0E7FF',
+  indigo_50: '#EEF2FF'
+};
+
+const gray = {
   gray_900: '#212529',
   gray_800: '#343a40',
   gray_700: '#495057',
@@ -55,8 +64,7 @@ const gray =
   gray_50: '#f8f9fa'
 };
 
-const neutral =
-{
+const neutral = {
   neutral_900: '#171717',
   neutral_800: '#262626',
   neutral_700: '#404040',
@@ -69,8 +77,7 @@ const neutral =
   neutral_50: '#fafafa'
 };
 
-const danger =
-{
+const danger = {
   danger_900: '#7f1d1d',
   danger_800: '#991b1b',
   danger_700: '#b91c1c',
@@ -83,14 +90,12 @@ const danger =
   danger_50: '#fef2f2'
 };
 
-const rose =
-{
+const rose = {
   rose_500: '#F43F5E',
   rose_600: '#BE123C'
 };
 
-const warning =
-{
+const warning = {
   warning_900: '#713f12',
   warning_800: '#854d0e',
   warning_700: '#a16207',
@@ -103,8 +108,7 @@ const warning =
   warning_50: '#fefce8'
 };
 
-const lime =
-{
+const lime = {
   lime_900: '#365314',
   lime_800: '#3F6212',
   lime_700: '#4D7C0F',
@@ -117,8 +121,7 @@ const lime =
   lime_50: '#F7FEE7'
 };
 
-const success =
-{
+const success = {
   success_900: '#14532d',
   success_800: '#166534',
   success_700: '#15803d',
@@ -131,8 +134,7 @@ const success =
   success_50: '#f0fdf4'
 };
 
-const emerald =
-{
+const emerald = {
   emerald_900: '#064E3B',
   emerald_800: '#065F46',
   emerald_700: '#047857',
@@ -145,8 +147,7 @@ const emerald =
   emerald_50: '#ECFDF5'
 };
 
-const purple =
-{
+const purple = {
   purple_900: '#4c1d95',
   purple_800: '#6b21a8',
   purple_700: '#7e22ce',
@@ -159,8 +160,7 @@ const purple =
   purple_50: '#faf5ff'
 };
 
-const orange =
-{
+const orange = {
   orange_900: '#7c2d12',
   orange_800: '#9a3412',
   orange_700: '#c2410c',
@@ -173,8 +173,7 @@ const orange =
   orange_50: '#fff7ed'
 };
 
-const amber =
-{
+const amber = {
   amber_900: '#78350F',
   amber_800: '#92400E',
   amber_700: '#B45309',
@@ -187,21 +186,18 @@ const amber =
   amber_50: '#FFFBEB'
 };
 
-const transparent = '#00000000';
-
-module.exports =
-{
+export {
   base,
   gray,
   background,
-  blue,
+  information,
+  indigo,
   neutral,
   danger,
   warning,
   success,
   cyan,
   lime,
-  transparent,
   purple,
   orange,
   rose,

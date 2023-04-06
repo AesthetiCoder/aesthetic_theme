@@ -1,0 +1,7 @@
+{
+  "src/**/*.ts":
+  [
+    "pnpm lint",
+    "pnpm type-check"
+  ]
+}
