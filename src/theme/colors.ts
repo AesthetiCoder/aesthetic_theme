@@ -51,6 +51,10 @@ const indigo = {
   indigo_50: '#EEF2FF'
 };
 
+const sky = {
+  sky_600: '#0284C7'
+};
+
 const gray = {
   gray_900: '#212529',
   gray_800: '#343a40',
@@ -189,6 +193,7 @@ const amber = {
 export {
   base,
   gray,
+  sky,
   background,
   information,
   indigo,

@@ -1,19 +1,9 @@
 import {
   amber,
-  cyan, emerald, gray, information, purple
+  cyan, emerald, gray, information
 } from '../theme/colors';
 
 const css = [
-  {
-    name: 'Css include functions',
-    scope: [
-      'meta.property-name.scss',
-      'meta.property-list.scss'
-    ],
-    settings: {
-      foreground: purple.purple_600
-    }
-  },
   {
     name: 'CSS Class and Support - Property Name',
     scope: [
@@ -71,18 +61,16 @@ const css = [
   },
   {
     name: 'Css regex character',
-    scope: [
-      'constant.character.escape.scss'
-    ],
+    scope: 'constant.character.escape.scss',
     settings: {
       foreground: emerald.emerald_200
     }
   },
   {
-    name: 'CSS entities and constants',
+    name: 'CSS constants and entities',
     scope: [
-      'entity.name.tag.css',
-      'support.constant.property-value.css'
+      'support.constant.property-value.css',
+      'entity.name.tag.css'
     ],
     settings: {
       foreground: cyan.cyan_600
@@ -126,9 +114,7 @@ const css = [
   },
   {
     name: 'CSS Name variable',
-    scope: [
-      'variable.scss'
-    ],
+    scope: 'variable.scss',
     settings: {
       fontStyle: 'bold',
       foreground: amber.amber_600

@@ -1,31 +1,24 @@
-import { cyan, neutral, information } from './../theme/colors';
+import { cyan, sky } from '../theme/colors';
 
 const jsTs = [
   {
-    name: 'Interfaces',
-    scope: [
-      'entity.other.inherited-class.ts'
-    ],
-    settings: {
-      foreground: cyan.cyan_600
-    }
-  },
-  {
     name: 'Colors of the object',
     scope: [
-      'meta.object-literal.key.js'
+      'meta.object-literal.key.ts'
     ],
     settings: {
-      foreground: neutral.neutral_400
+      fontStyle: 'bold',
+      foreground: sky.sky_600
     }
   },
   {
-    name: 'JavaScript/TypeScript interpolation punctuation',
+    name: 'TS types',
     scope: [
-      'punctuation.definition.template-expression'
+      'support.type.primitive.ts'
     ],
     settings: {
-      foreground: information.information_600
+      fontStyle: 'bold',
+      foreground: cyan.cyan_600
     }
   }
 ];

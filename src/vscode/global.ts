@@ -8,6 +8,7 @@ import { git } from './git';
 import { gutter } from './gutter';
 import { input } from './input';
 import { list } from './list';
+import { notifications } from './notifications';
 import { overviewRuler } from './overview_ruler';
 import { peekView } from './peek_view';
 import { scrollbar } from './scrollbar';
@@ -20,7 +21,6 @@ const global = {
   foreground: gray.gray_500,
   focusBorder: information.information_600,
   errorForeground: gray.gray_500,
-  // selection.background
   'widget.shadow': base.black,
   'editor.background': background.background_900,
   'editor.foreground': gray.gray_500,
@@ -38,6 +38,11 @@ const global = {
   'badge.background': information.information_600,
   'badge.foreground': gray.gray_300,
 
+  'breadcrumb.foreground': gray.gray_700,
+  'breadcrumb.background': background.background_900,
+  'breadcrumb.focusForeground': gray.gray_500,
+  'editorGroupHeader.border': base.transparent,
+
   'titleBar.activeBackground': background.background_900,
   'titleBar.activeForeground': gray.gray_500,
   'titleBar.inactiveBackground': background.background_900,
@@ -49,6 +54,14 @@ const global = {
 
   'editor.wordHighlightBackground': `${information.information_700}75`,
   'editor.wordHighlightStrongBackground': `${information.information_700}55`,
+
+  'menu.background': background.background_900,
+  'menu.foreground': gray.gray_500,
+  'menu.separatorBackground': background.background_500,
+  'menu.selectionBackground': background.background_700,
+  'menu.selectionForeground': gray.gray_300,
+  'menubar.selectionBackground': background.background_700,
+  'menubar.selectionForeground': gray.gray_300,
 
   ...button,
   ...dropdown,
@@ -63,6 +76,7 @@ const global = {
   ...widget,
   ...peekView,
   ...statusBar,
+  ...notifications,
   ...git
 };
 

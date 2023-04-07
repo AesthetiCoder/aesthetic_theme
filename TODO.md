@@ -1,5 +1,4 @@
 # Todo
 
-[ ] Better colors syntax
+[ ] Built in functions and .functions colors
 [ ] Markdown
-[ ] Change menu color

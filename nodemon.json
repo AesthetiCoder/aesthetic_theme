@@ -1,3 +1,6 @@
 {
-  "ignore": ["./dist/generated"]
+  "watch": ["./src/**/*.ts"],
+  "ext": "ts",
+  "ignore": ["./dist/generated"],
+  "exec": "ts-node ./src/index.ts"
 }

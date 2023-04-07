@@ -1,13 +1,19 @@
-import { cyan } from './../theme/colors';
+import { cyan, information } from './../theme/colors';
 
 const json = [
   {
     name: 'JSON constants',
-    scope: [
-      'constant.language.json'
-    ],
+    scope: 'constant.language.json',
     settings: {
-      foreground: cyan.cyan_500
+      foreground: cyan.cyan_600
+    }
+  },
+  {
+    name: 'JSON name',
+    scope: 'support.type.property-name.json',
+    settings: {
+      fontStyle: 'bold',
+      foreground: information.information_600
     }
   }
 ];
