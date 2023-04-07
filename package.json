@@ -19,14 +19,14 @@
     "lint": "eslint --ext .ts . --fix",
     "dev": "nodemon",
     "build": "rimraf dist & tsc",
-    "package": "build & vsce package -o ./dist/github-vscode-theme.vsix"
+    "package": "vsce package --no-dependencies"
   },
   "contributes": {
     "themes": [
       {
         "label": "Luis's Theme",
         "uiTheme": "vs-dark",
-        "path": "./dist/generated/dark-theme.json"
+        "path": "./themes/dark-theme.json"
       }
     ]
   },

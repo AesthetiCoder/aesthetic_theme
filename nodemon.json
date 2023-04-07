@@ -1,6 +1,6 @@
 {
   "watch": ["./src/**/*.ts"],
   "ext": "ts",
-  "ignore": ["./dist/generated"],
+  "ignore": ["./themes"],
   "exec": "ts-node ./src/index.ts"
 }

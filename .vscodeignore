@@ -1,0 +1,23 @@
+
+node_modules
+*.vsix
+
+# Source
+.github/
+.husky/
+.vscode/
+src/
+dist/
+
+# Dev config files
+.nvmrc
+.npmrc
+.lintstagedrc
+.editorconfig
+.eslintrc
+.eslintignore
+.gitattributes
+.gitignore
+nodemon.json
+tsconfig.json
+*.md

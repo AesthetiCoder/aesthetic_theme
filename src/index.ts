@@ -4,14 +4,14 @@ import { theme } from './app';
 const main = (): void =>
 {
   const space = 2;
-  const folderExist = fs.existsSync('./dist/generated');
+  const folderExist = fs.existsSync('./themes');
 
   if(!folderExist)
   {
-    fs.mkdirSync('./dist/generated', { recursive: false });
+    fs.mkdirSync('./themes', { recursive: false });
   }
 
-  fs.writeFileSync('./dist/generated/dark-theme.json', JSON.stringify(theme, null, space));
+  fs.writeFileSync('./themes/dark-theme.json', JSON.stringify(theme, null, space));
 };
 
 main();
