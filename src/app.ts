@@ -2,6 +2,7 @@ import { common } from './syntax/common';
 import { css } from './syntax/css';
 import { jsTs } from './syntax/js_ts';
 import { json } from './syntax/json';
+import { markdown } from './syntax/markdown';
 import { global } from './vscode/global';
 
 const theme = {
@@ -16,7 +17,8 @@ const theme = {
     ...common,
     ...css,
     ...json,
-    ...jsTs
+    ...jsTs,
+    ...markdown
   ]
 };
 

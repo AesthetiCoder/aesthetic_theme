@@ -52,6 +52,7 @@ const indigo = {
 };
 
 const sky = {
+  sky_500: '#0EA5E9',
   sky_600: '#0284C7'
 };
 
