@@ -1,6 +1,7 @@
 import {
   background, base, danger, gray, information, warning
 } from '../theme/colors';
+import { alpha } from '../utils/alpha';
 import { activityBar } from './activity_bar';
 import { button } from './button';
 import { dropdown } from './dropdown';
@@ -35,7 +36,7 @@ const global = {
   'editorIndentGuide.background': gray.gray_900,
   'editorCodeLens.foreground': gray.gray_600,
   'editorBracketMatch.background': background.background_600,
-  'editor.foldBackground': `${information.information_600}20`,
+  'editor.foldBackground': alpha(information.information_600, 0.20),
   'editorGroup.border': background.background_500,
 
   'progressBar.background': information.information_600,
@@ -53,12 +54,12 @@ const global = {
   'titleBar.inactiveBackground': background.background_900,
   'titleBar.inactiveForeground': gray.gray_700,
 
-  'editor.selectionBackground': `${information.information_700}55`,
-  'editor.selectionHighlightBackground': `${information.information_700}55`,
-  'editor.inactiveSelectionBackground': `${information.information_900}45`,
+  'editor.selectionBackground': alpha(information.information_700, 0.55),
+  'editor.selectionHighlightBackground': alpha(information.information_700, 0.35),
+  'editor.inactiveSelectionBackground': alpha(information.information_900, 0.45),
 
-  'editor.wordHighlightBackground': `${information.information_700}75`,
-  'editor.wordHighlightStrongBackground': `${information.information_700}55`,
+  'editor.wordHighlightBackground': alpha(information.information_700, 0.35),
+  'editor.wordHighlightStrongBackground': alpha(information.information_700, 0.35),
 
   'menu.background': background.background_900,
   'menu.foreground': gray.gray_500,
@@ -76,8 +77,8 @@ const global = {
   'diffEditor.border': base.transparent,
   'diffEditor.removedTextBorder': base.transparent,
   'diffEditor.insertedTextBorder': base.transparent,
-  'diffEditor.insertedTextBackground': `${warning.warning_600}35`,
-  'diffEditor.removedTextBackground': `${danger.danger_600}35`,
+  'diffEditor.insertedTextBackground': alpha(warning.warning_600, 0.35),
+  'diffEditor.removedTextBackground': alpha(danger.danger_600, 0.35),
 
   ...button,
   ...dropdown,

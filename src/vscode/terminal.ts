@@ -1,6 +1,7 @@
 import {
   background, base, cyan, danger, gray, information, purple, success, warning
 } from '../theme/colors';
+import { alpha } from '../utils/alpha';
 
 const terminal = {
   'panel.background': background.background_900,
@@ -9,7 +10,7 @@ const terminal = {
   'panelTitle.activeForeground': gray.gray_500,
   'panelTitle.inactiveForeground': gray.gray_700,
   'terminal.foreground': gray.gray_500,
-  'terminal.selectionBackground': `${information.information_700}55`,
+  'terminal.selectionBackground': alpha(information.information_700, 0.55),
   'terminal.border': base.transparent,
   'terminalCursor.foreground': gray.gray_300,
   'terminalCursor.background': gray.gray_300,
