@@ -1,5 +1,5 @@
 import {
-  background, base, gray, information
+  background, base, danger, gray, information, warning
 } from '../theme/colors';
 import { activityBar } from './activity_bar';
 import { button } from './button';
@@ -21,6 +21,9 @@ const global = {
   foreground: gray.gray_500,
   focusBorder: information.information_600,
   errorForeground: gray.gray_500,
+  'editorError.foreground': danger.danger_600,
+  'editorWarning.foreground': warning.warning_600,
+  'editorInfo.foreground': information.information_600,
   'widget.shadow': base.black,
   'editor.background': background.background_900,
   'editor.foreground': gray.gray_500,
@@ -30,8 +33,10 @@ const global = {
   'editorLink.activeForeground': information.information_400,
   'editorWhitespace.foreground': gray.gray_900,
   'editorIndentGuide.background': gray.gray_900,
-  'editorCodeLens.foreground': gray.gray_500,
+  'editorCodeLens.foreground': gray.gray_600,
   'editorBracketMatch.background': background.background_600,
+  'editor.foldBackground': `${information.information_600}20`,
+  'editorGroup.border': background.background_500,
 
   'progressBar.background': information.information_600,
 
@@ -62,6 +67,17 @@ const global = {
   'menu.selectionForeground': gray.gray_300,
   'menubar.selectionBackground': background.background_700,
   'menubar.selectionForeground': gray.gray_300,
+
+  'editorMarkerNavigation.background': background.background_900,
+  'editorMarkerNavigationError.background': danger.danger_600,
+  'editorMarkerNavigationWarning.background': warning.warning_600,
+  'editorMarkerNavigationInfo.background': information.information_600,
+
+  'diffEditor.border': base.transparent,
+  'diffEditor.removedTextBorder': base.transparent,
+  'diffEditor.insertedTextBorder': base.transparent,
+  'diffEditor.insertedTextBackground': `${warning.warning_600}35`,
+  'diffEditor.removedTextBackground': `${danger.danger_600}35`,
 
   ...button,
   ...dropdown,
