@@ -20,7 +20,7 @@ import { widget } from './widget';
 
 const global = {
   foreground: gray.gray_500,
-  focusBorder: information.information_600,
+  focusBorder: base.transparent,
   errorForeground: gray.gray_500,
   'editorError.foreground': danger.danger_600,
   'editorWarning.foreground': warning.warning_600,

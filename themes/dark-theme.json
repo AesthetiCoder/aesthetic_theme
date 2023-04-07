@@ -3,7 +3,7 @@
   "type": "dark",
   "colors": {
     "foreground": "#adb5bd",
-    "focusBorder": "#2563eb",
+    "focusBorder": "#00000000",
     "errorForeground": "#adb5bd",
     "editorError.foreground": "#dc2626",
     "editorWarning.foreground": "#ca8a04",
