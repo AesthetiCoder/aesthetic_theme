@@ -1,0 +1,5 @@
+const common = {
+
+};
+
+export { common };

@@ -1,5 +1,5 @@
 import * as fs from 'fs';
-import { theme } from './theme/theme';
+import { theme } from './app';
 
 const main = (): void =>
 {

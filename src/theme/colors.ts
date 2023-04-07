@@ -92,7 +92,7 @@ const danger = {
 
 const rose = {
   rose_500: '#F43F5E',
-  rose_600: '#BE123C'
+  rose_600: '#DB2777'
 };
 
 const warning = {
