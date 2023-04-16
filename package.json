@@ -18,8 +18,8 @@
     "type-check": "tsc --pretty --noEmit",
     "lint": "eslint --ext .ts . --fix",
     "dev": "nodemon",
-    "build": "rimraf dist & tsc",
-    "package": "vsce package --no-dependencies"
+    "build": "rimraf dist && tsc",
+    "package": "rimraf luis-theme-0.0.1.vsix && vsce package --no-dependencies"
   },
   "contributes": {
     "themes": [

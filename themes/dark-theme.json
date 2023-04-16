@@ -467,6 +467,15 @@
       }
     },
     {
+      "name": "Template string",
+      "scope": [
+        "meta.template.expression.ts"
+      ],
+      "settings": {
+        "foreground": "#ced4da"
+      }
+    },
+    {
       "name": "Markdown paragraph",
       "scope": "meta.paragraph.markdown",
       "settings": {
@@ -574,5 +583,14 @@
         "foreground": "#a855f7"
       }
     }
-  ]
+  ],
+  "semanticHighlighting": true,
+  "semanticTokenColors": {
+    "enumMember": {
+      "foreground": "#ced4da"
+    },
+    "variable.constant": {
+      "foreground": "#ced4da"
+    }
+  }
 }

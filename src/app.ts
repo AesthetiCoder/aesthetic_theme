@@ -19,7 +19,19 @@ const theme = {
     ...json,
     ...jsTs,
     ...markdown
-  ]
+  ],
+  semanticHighlighting: true,
+  semanticTokenColors:
+  {
+    enumMember:
+    {
+      foreground: '#ced4da'
+    },
+    'variable.constant':
+    {
+      foreground: '#ced4da'
+    }
+  }
 };
 
 export { theme };

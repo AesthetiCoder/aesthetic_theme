@@ -1,4 +1,4 @@
-import { cyan, sky } from '../theme/colors';
+import { cyan, gray, sky } from '../theme/colors';
 
 const jsTs = [
   {
@@ -19,6 +19,15 @@ const jsTs = [
     settings: {
       fontStyle: 'bold',
       foreground: cyan.cyan_600
+    }
+  },
+  {
+    name: 'Template string',
+    scope: [
+      'meta.template.expression.ts'
+    ],
+    settings: {
+      foreground: gray.gray_400
     }
   }
 ];
