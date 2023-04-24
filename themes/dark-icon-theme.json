@@ -1,0 +1,156 @@
+{
+  "iconDefinitions": {
+    "folder": {
+      "iconPath": "./../src/asset/icon/folder.svg"
+    },
+    "folderExpanded": {
+      "iconPath": "./../src/asset/icon/folder_expanded.svg"
+    },
+    "folderSrc": {
+      "iconPath": "./../src/asset/icon/folder_src.svg"
+    },
+    "folderSrcExpanded": {
+      "iconPath": "./../src/asset/icon/folder_src_expanded.svg"
+    },
+    "folderGit": {
+      "iconPath": "./../src/asset/icon/folder_git.svg"
+    },
+    "folderGitExpanded": {
+      "iconPath": "./../src/asset/icon/folder_git_expanded.svg"
+    },
+    "folderGithub": {
+      "iconPath": "./../src/asset/icon/folder_github.svg"
+    },
+    "folderGithubExpanded": {
+      "iconPath": "./../src/asset/icon/folder_github_expanded.svg"
+    },
+    "folderVscode": {
+      "iconPath": "./../src/asset/icon/folder_vscode.svg"
+    },
+    "folderVscodeExpanded": {
+      "iconPath": "./../src/asset/icon/folder_vscode_expanded.svg"
+    },
+    "folderDist": {
+      "iconPath": "./../src/asset/icon/folder_dist.svg"
+    },
+    "folderDistExpanded": {
+      "iconPath": "./../src/asset/icon/folder_dist_expanded.svg"
+    },
+    "folderNode": {
+      "iconPath": "./../src/asset/icon/folder_node.svg"
+    },
+    "folderNodeExpanded": {
+      "iconPath": "./../src/asset/icon/folder_node_expanded.svg"
+    },
+    "folderTheme": {
+      "iconPath": "./../src/asset/icon/folder_theme.svg"
+    },
+    "folderThemeExpanded": {
+      "iconPath": "./../src/asset/icon/folder_theme_expanded.svg"
+    },
+    "folderSvg": {
+      "iconPath": "./../src/asset/icon/folder_svg.svg"
+    },
+    "folderSvgExpanded": {
+      "iconPath": "./../src/asset/icon/folder_svg_expanded.svg"
+    },
+    "folderImage": {
+      "iconPath": "./../src/asset/icon/folder_image.svg"
+    },
+    "folderImageExpanded": {
+      "iconPath": "./../src/asset/icon/folder_image_expanded.svg"
+    },
+    "folderPublic": {
+      "iconPath": "./../src/asset/icon/folder_public.svg"
+    },
+    "folderPublicExpanded": {
+      "iconPath": "./../src/asset/icon/folder_public_expanded.svg"
+    },
+    "folderTest": {
+      "iconPath": "./../src/asset/icon/folder_test.svg"
+    },
+    "folderTestExpanded": {
+      "iconPath": "./../src/asset/icon/folder_test_expanded.svg"
+    },
+    "folderScript": {
+      "iconPath": "./../src/asset/icon/folder_script.svg"
+    },
+    "folderScriptExpanded": {
+      "iconPath": "./../src/asset/icon/folder_script_expanded.svg"
+    },
+    "folderFont": {
+      "iconPath": "./../src/asset/icon/folder_font.svg"
+    },
+    "folderFontExpanded": {
+      "iconPath": "./../src/asset/icon/folder_font_expanded.svg"
+    },
+    "file": {
+      "iconPath": "./../src/asset/icon/file.svg"
+    },
+    "ts": {
+      "iconPath": "./../src/asset/icon/typescript.svg"
+    }
+  },
+  "fileExtensions": {
+    "ts": "ts"
+  },
+  "languageIds": {
+    "typescript": "ts"
+  },
+  "folderNames": {
+    "src": "folderSrc",
+    ".git": "folderGit",
+    ".github": "folderGithub",
+    ".vscode": "folderVscode",
+    "vscode": "folderVscode",
+    "dist": "folderDist",
+    "node_modules": "folderNode",
+    "theme": "folderTheme",
+    "themes": "folderTheme",
+    "svg": "folderSvg",
+    "svgs": "folderSvg",
+    "image": "folderImage",
+    "images": "folderImage",
+    "icon": "folderImage",
+    "icons": "folderImage",
+    "illustration": "folderImage",
+    "illustrations": "folderImage",
+    "public": "folderPublic",
+    "test": "folderTest",
+    "tests": "folderTest",
+    "script": "folderScript",
+    "scripts": "folderScript",
+    "font": "folderFont",
+    "fonts": "folderFont"
+  },
+  "folderNamesExpanded": {
+    "src": "folderSrcExpanded",
+    ".git": "folderGitExpanded",
+    ".github": "folderGithubExpanded",
+    ".vscode": "folderVscodeExpanded",
+    "vscode": "folderVscodeExpanded",
+    "dist": "folderDistExpanded",
+    "node_modules": "folderNodeExpanded",
+    "theme": "folderThemeExpanded",
+    "themes": "folderThemeExpanded",
+    "svg": "folderSvgExpanded",
+    "svgs": "folderSvgExpanded",
+    "image": "folderImageExpanded",
+    "images": "folderImageExpanded",
+    "icon": "folderImageExpanded",
+    "icons": "folderImageExpanded",
+    "illustration": "folderImageExpanded",
+    "illustrations": "folderImageExpanded",
+    "public": "folderPublicExpanded",
+    "test": "folderTestExpanded",
+    "tests": "folderTestExpanded",
+    "script": "folderScriptExpanded",
+    "scripts": "folderScriptExpanded",
+    "font": "folderFontExpanded",
+    "fonts": "folderFontExpanded"
+  },
+  "hidesExplorerArrows": true,
+  "folder": "folder",
+  "folderExpanded": "folderExpanded",
+  "file": "file"
+}

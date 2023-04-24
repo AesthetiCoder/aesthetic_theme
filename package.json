@@ -22,6 +22,13 @@
     "package": "rimraf luis-theme-0.0.1.vsix && vsce package --no-dependencies"
   },
   "contributes": {
+    "iconThemes": [
+      {
+        "id": "dark",
+        "label": "Dark Icons",
+        "path": "./themes/dark-icon-theme.json"
+      }
+    ],
     "themes": [
       {
         "label": "Luis's Theme",
@@ -32,12 +39,9 @@
   },
   "devDependencies": {
     "@types/node": "^18.15.11",
-    "@typescript-eslint/eslint-plugin": "^5.57.1",
-    "@typescript-eslint/parser": "^5.57.1",
     "@vscode/vsce": "^2.18.0",
     "eslint": "^8.37.0",
-    "husky": "^8.0.3",
-    "lint-staged": "^13.2.0",
+    "eslint-config-typescript-coder-dev": "^0.0.2",
     "nodemon": "^2.0.20",
     "rimraf": "^4.4.1",
     "ts-node": "^10.9.1",

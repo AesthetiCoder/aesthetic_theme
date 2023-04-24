@@ -1,5 +1,6 @@
 import * as fs from 'fs';
-import { theme } from './app';
+import { theme } from './theme';
+import { themeIcons } from './theme_icon';
 
 const main = (): void =>
 {
@@ -12,6 +13,7 @@ const main = (): void =>
   }
 
   fs.writeFileSync('./themes/dark-theme.json', JSON.stringify(theme, null, space));
+  fs.writeFileSync('./themes/dark-icon-theme.json', JSON.stringify(themeIcons, null, space));
 };
 
 main();

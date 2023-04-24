@@ -5,7 +5,8 @@ import { json } from './syntax/json';
 import { markdown } from './syntax/markdown';
 import { global } from './vscode/global';
 
-const theme = {
+const theme =
+{
   name: 'Luis\'s Theme',
   type: 'dark',
   colors:
