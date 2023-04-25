@@ -113,6 +113,170 @@ const folderName = () =>
       ]
     },
     {
+      name: 'folder_docs',
+      folderName: [
+        '_post',
+        '_posts',
+        'doc',
+        'docs',
+        'document',
+        'documents',
+        'documentation',
+        'post',
+        'posts',
+        'article',
+        'articles'
+      ]
+    },
+    {
+      name: 'folder_example',
+      folderName: [
+        'demo',
+        'demos',
+        'example',
+        'examples',
+        'sample',
+        'samples',
+        'sample_data'
+      ]
+    },
+    {
+      name: 'folder_music',
+      folderName: [
+        'aud',
+        'auds',
+        'audio',
+        'audios',
+        'music',
+        'sound',
+        'sounds'
+      ]
+    },
+    { name: 'folder_flow', folderName: ['flow_typed'] },
+    { name: 'folder_firebase', folderName: ['firebase', '.firebase'] },
+    { name: 'folder_gradle', folderName: ['gradle', '.gradle'] },
+    { name: 'folder_intellij', folderName: ['.idea'] },
+    { name: 'folder_json', folderName: ['json', 'jsons'] },
+    { name: 'folder_mjml', folderName: ['mjml'] },
+    { name: 'folder_less', folderName: ['less'] },
+    {
+      name: 'folder_mercurial',
+      folderName: ['.hg', 'hghooks', '.hghooks', '.hgext']
+    },
+    {
+      name: 'folder_kubernetes',
+      folderName: ['kubernetes', '.kubernetes', 'k8s', '.k8s']
+    },
+    { name: 'folder_ios', folderName: ['ios'] },
+    {
+      name: 'folder_java',
+      folderName: ['java']
+    },
+    {
+      name: 'folder_jinja',
+      folderName: ['jinja', 'jinja2', 'j2']
+    },
+    {
+      name: 'folder_gulp',
+      folderName: [
+        'gulp',
+        'gulp_tasks',
+        'gulpfile.js',
+        'gulpfile.mjs',
+        'gulpfile.ts',
+        'gulpfile.babel.js'
+      ]
+    },
+    {
+      name: 'folder_cypress',
+      folderName: ['cypress', '.cypress']
+    },
+    {
+      name: 'folder_godot',
+      folderName: ['godot', '.godot', 'godot_cpp', '.godot_cpp']
+    },
+    { name: 'folder_gitlab', folderName: ['.gitlab'] },
+    { name: 'folder_fastlane', folderName: ['fastlane'] },
+    { name: 'folder_delta', folderName: ['delta', 'deltas', 'changes'] },
+    { name: 'folder_cobol', folderName: ['cobol'] },
+    { name: 'folder_circle_ci', folderName: ['.circleci'] },
+    { name: 'folder_bower', folderName: ['bower_components', 'bower_component'] },
+    { name: 'folder_buildkite', folderName: ['buildkite', '.buildkite'] },
+    {
+      name: 'folder_azure',
+      folderName: ['.azure_pipelines', '.azure_pipelines_ci', 'azure']
+    },
+    { name: 'folder_aws', folderName: ['aws', '.aws'] },
+    { name: 'folder_aurelia', folderName: ['aurelia_project'] },
+    {
+      name: 'folder_angular',
+      folderName: ['angular', '.angular']
+    },
+    { name: 'folder_ansible', folderName: ['ansible'] },
+    { name: 'folder_android', folderName: ['android'] },
+    {
+      name: 'folder_video',
+      folderName: ['vid', 'vids', 'video', 'videos', 'movie', 'movies']
+    },
+    { name: 'folder_netlify', folderName: ['.netlify'] },
+    {
+      name: 'folder_pdf',
+      folderName: ['pdf', 'pdfs']
+    },
+    {
+      name: 'folder_verdaccio',
+      folderName: ['.verdaccio', 'verdaccio']
+    },
+    {
+      name: 'folder_vue',
+      folderName: ['vue']
+    },
+    { name: 'folder_wakatime', folderName: ['wakatime'] },
+    { name: 'folder_terraform', folderName: ['terraform', '.terraform'] },
+    { name: 'folder_quasar', folderName: ['.quasar'] },
+    { name: 'folder_svelte', folderName: ['svelte', '.svelte_kit'] },
+    {
+      name: 'folder_unity',
+      folderName: ['unity']
+    },
+    { name: 'folder_supabase', folderName: ['supabase', '.supabase'] },
+    {
+      name: 'folder_storybook',
+      folderName: ['.storybook', 'storybook', 'stories', '__stories__']
+    },
+    { name: 'folder_stylus', folderName: ['stylus'] },
+    { name: 'folder_sublime', folderName: ['sublime'] },
+    {
+      name: 'folder_react_component',
+      folderName: ['components', 'component', 'react', 'jsx', 'reactjs']
+    },
+    { name: 'folder_stencil', folderName: ['.stencil'] },
+    { name: 'folder_scala', folderName: ['scala'] },
+    {
+      name: 'folder_resolver',
+      folderName: ['resolver', 'resolvers']
+    },
+    {
+      name: 'folder_plastic',
+      folderName: ['plastic', '.plastic']
+    },
+    {
+      name: 'folder_python',
+      folderName: ['python', '__pycache__', '.pytest_cache']
+    },
+    {
+      name: 'folder_proto',
+      folderName: ['protobufs', 'proto']
+    },
+    { name: 'folder_upload', folderName: ['uploads', 'upload'] },
+    { name: 'folder_download', folderName: ['downloads', 'download'] },
+    { name: 'folder_next', folderName: ['.next'] },
+    {
+      name: 'folder_nuxt',
+      folderName: ['nuxt', '.nuxt']
+    },
+    { name: 'folder_php', folderName: ['php'] },
+    {
       name: 'folder_theme',
       folderName: [
         'themes',
