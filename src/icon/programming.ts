@@ -1,10 +1,10 @@
-import { iconPath } from '../constant/path';
 
 
 const programmingIcons =
 {
   iconDefinitions:
   {
+    /*
     file:
     {
       iconPath: `${iconPath}file.svg`
@@ -13,6 +13,7 @@ const programmingIcons =
     {
       iconPath: `${iconPath}typescript.svg`
     }
+    */
   },
   fileExtensions:
   {

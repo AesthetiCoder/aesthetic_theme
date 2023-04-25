@@ -3,92 +3,176 @@
     "folder": {
       "iconPath": "./../src/asset/icon/folder.svg"
     },
-    "folderExpanded": {
-      "iconPath": "./../src/asset/icon/folder_expanded.svg"
+    "folder_apollo": {
+      "iconPath": "./../src/asset/icon/folder_apollo.svg"
     },
-    "folderSrc": {
-      "iconPath": "./../src/asset/icon/folder_src.svg"
+    "folder_apollo_expanded": {
+      "iconPath": "./../src/asset/icon/folder_apollo_expanded.svg"
     },
-    "folderSrcExpanded": {
-      "iconPath": "./../src/asset/icon/folder_src_expanded.svg"
+    "folder_css": {
+      "iconPath": "./../src/asset/icon/folder_css.svg"
     },
-    "folderGit": {
-      "iconPath": "./../src/asset/icon/folder_git.svg"
+    "folder_css_expanded": {
+      "iconPath": "./../src/asset/icon/folder_css_expanded.svg"
     },
-    "folderGitExpanded": {
-      "iconPath": "./../src/asset/icon/folder_git_expanded.svg"
-    },
-    "folderGithub": {
-      "iconPath": "./../src/asset/icon/folder_github.svg"
-    },
-    "folderGithubExpanded": {
-      "iconPath": "./../src/asset/icon/folder_github_expanded.svg"
-    },
-    "folderVscode": {
-      "iconPath": "./../src/asset/icon/folder_vscode.svg"
-    },
-    "folderVscodeExpanded": {
-      "iconPath": "./../src/asset/icon/folder_vscode_expanded.svg"
-    },
-    "folderDist": {
+    "folder_dist": {
       "iconPath": "./../src/asset/icon/folder_dist.svg"
     },
-    "folderDistExpanded": {
+    "folder_dist_expanded": {
       "iconPath": "./../src/asset/icon/folder_dist_expanded.svg"
     },
-    "folderNode": {
-      "iconPath": "./../src/asset/icon/folder_node.svg"
+    "folder_docker": {
+      "iconPath": "./../src/asset/icon/folder_docker.svg"
     },
-    "folderNodeExpanded": {
-      "iconPath": "./../src/asset/icon/folder_node_expanded.svg"
+    "folder_docker_expanded": {
+      "iconPath": "./../src/asset/icon/folder_docker_expanded.svg"
     },
-    "folderTheme": {
-      "iconPath": "./../src/asset/icon/folder_theme.svg"
+    "folder_expanded": {
+      "iconPath": "./../src/asset/icon/folder_expanded.svg"
     },
-    "folderThemeExpanded": {
-      "iconPath": "./../src/asset/icon/folder_theme_expanded.svg"
+    "folder_expo": {
+      "iconPath": "./../src/asset/icon/folder_expo.svg"
     },
-    "folderSvg": {
-      "iconPath": "./../src/asset/icon/folder_svg.svg"
+    "folder_expo_expanded": {
+      "iconPath": "./../src/asset/icon/folder_expo_expanded.svg"
     },
-    "folderSvgExpanded": {
-      "iconPath": "./../src/asset/icon/folder_svg_expanded.svg"
-    },
-    "folderImage": {
-      "iconPath": "./../src/asset/icon/folder_image.svg"
-    },
-    "folderImageExpanded": {
-      "iconPath": "./../src/asset/icon/folder_image_expanded.svg"
-    },
-    "folderPublic": {
-      "iconPath": "./../src/asset/icon/folder_public.svg"
-    },
-    "folderPublicExpanded": {
-      "iconPath": "./../src/asset/icon/folder_public_expanded.svg"
-    },
-    "folderTest": {
-      "iconPath": "./../src/asset/icon/folder_test.svg"
-    },
-    "folderTestExpanded": {
-      "iconPath": "./../src/asset/icon/folder_test_expanded.svg"
-    },
-    "folderScript": {
-      "iconPath": "./../src/asset/icon/folder_script.svg"
-    },
-    "folderScriptExpanded": {
-      "iconPath": "./../src/asset/icon/folder_script_expanded.svg"
-    },
-    "folderFont": {
+    "folder_font": {
       "iconPath": "./../src/asset/icon/folder_font.svg"
     },
-    "folderFontExpanded": {
+    "folder_font_expanded": {
       "iconPath": "./../src/asset/icon/folder_font_expanded.svg"
     },
-    "file": {
-      "iconPath": "./../src/asset/icon/file.svg"
+    "folder_git": {
+      "iconPath": "./../src/asset/icon/folder_git.svg"
     },
-    "ts": {
-      "iconPath": "./../src/asset/icon/typescript.svg"
+    "folder_github": {
+      "iconPath": "./../src/asset/icon/folder_github.svg"
+    },
+    "folder_github_expanded": {
+      "iconPath": "./../src/asset/icon/folder_github_expanded.svg"
+    },
+    "folder_git_expanded": {
+      "iconPath": "./../src/asset/icon/folder_git_expanded.svg"
+    },
+    "folder_graphql": {
+      "iconPath": "./../src/asset/icon/folder_graphql.svg"
+    },
+    "folder_graphql_expanded": {
+      "iconPath": "./../src/asset/icon/folder_graphql_expanded.svg"
+    },
+    "folder_husky": {
+      "iconPath": "./../src/asset/icon/folder_husky.svg"
+    },
+    "folder_husky_expanded": {
+      "iconPath": "./../src/asset/icon/folder_husky_expanded.svg"
+    },
+    "folder_image": {
+      "iconPath": "./../src/asset/icon/folder_image.svg"
+    },
+    "folder_image_expanded": {
+      "iconPath": "./../src/asset/icon/folder_image_expanded.svg"
+    },
+    "folder_javascript": {
+      "iconPath": "./../src/asset/icon/folder_javascript.svg"
+    },
+    "folder_javascript_expanded": {
+      "iconPath": "./../src/asset/icon/folder_javascript_expanded.svg"
+    },
+    "folder_lua": {
+      "iconPath": "./../src/asset/icon/folder_lua.svg"
+    },
+    "folder_lua_expanded": {
+      "iconPath": "./../src/asset/icon/folder_lua_expanded.svg"
+    },
+    "folder_markdown": {
+      "iconPath": "./../src/asset/icon/folder_markdown.svg"
+    },
+    "folder_markdown_expanded": {
+      "iconPath": "./../src/asset/icon/folder_markdown_expanded.svg"
+    },
+    "folder_node": {
+      "iconPath": "./../src/asset/icon/folder_node.svg"
+    },
+    "folder_node_expanded": {
+      "iconPath": "./../src/asset/icon/folder_node_expanded.svg"
+    },
+    "folder_pisma": {
+      "iconPath": "./../src/asset/icon/folder_pisma.svg"
+    },
+    "folder_prisma_expanded": {
+      "iconPath": "./../src/asset/icon/folder_prisma_expanded.svg"
+    },
+    "folder_public": {
+      "iconPath": "./../src/asset/icon/folder_public.svg"
+    },
+    "folder_public_expanded": {
+      "iconPath": "./../src/asset/icon/folder_public_expanded.svg"
+    },
+    "folder_sass": {
+      "iconPath": "./../src/asset/icon/folder_sass.svg"
+    },
+    "folder_sass_expanded": {
+      "iconPath": "./../src/asset/icon/folder_sass_expanded.svg"
+    },
+    "folder_script": {
+      "iconPath": "./../src/asset/icon/folder_script.svg"
+    },
+    "folder_script_expanded": {
+      "iconPath": "./../src/asset/icon/folder_script_expanded.svg"
+    },
+    "folder_src": {
+      "iconPath": "./../src/asset/icon/folder_src.svg"
+    },
+    "folder_src_expanded": {
+      "iconPath": "./../src/asset/icon/folder_src_expanded.svg"
+    },
+    "folder_svg": {
+      "iconPath": "./../src/asset/icon/folder_svg.svg"
+    },
+    "folder_svg_expanded": {
+      "iconPath": "./../src/asset/icon/folder_svg_expanded.svg"
+    },
+    "folder_test": {
+      "iconPath": "./../src/asset/icon/folder_test.svg"
+    },
+    "folder_test_expanded": {
+      "iconPath": "./../src/asset/icon/folder_test_expanded.svg"
+    },
+    "folder_theme": {
+      "iconPath": "./../src/asset/icon/folder_theme.svg"
+    },
+    "folder_theme_expanded": {
+      "iconPath": "./../src/asset/icon/folder_theme_expanded.svg"
+    },
+    "folder_typescript": {
+      "iconPath": "./../src/asset/icon/folder_typescript.svg"
+    },
+    "folder_typescript_expanded": {
+      "iconPath": "./../src/asset/icon/folder_typescript_expanded.svg"
+    },
+    "folder_vercel": {
+      "iconPath": "./../src/asset/icon/folder_vercel.svg"
+    },
+    "folder_vercel_expanded": {
+      "iconPath": "./../src/asset/icon/folder_vercel_expanded.svg"
+    },
+    "folder_vscode": {
+      "iconPath": "./../src/asset/icon/folder_vscode.svg"
+    },
+    "folder_vscode_expanded": {
+      "iconPath": "./../src/asset/icon/folder_vscode_expanded.svg"
+    },
+    "folder_webpack": {
+      "iconPath": "./../src/asset/icon/folder_webpack.svg"
+    },
+    "folder_webpack_expanded": {
+      "iconPath": "./../src/asset/icon/folder_webpack_expanded.svg"
+    },
+    "folder_yarn": {
+      "iconPath": "./../src/asset/icon/folder_yarn.svg"
+    },
+    "folder_yarn_expanded": {
+      "iconPath": "./../src/asset/icon/folder_yarn_expanded.svg"
     }
   },
   "fileExtensions": {
@@ -98,59 +182,255 @@
     "typescript": "ts"
   },
   "folderNames": {
-    "src": "folderSrc",
-    ".git": "folderGit",
-    ".github": "folderGithub",
-    ".vscode": "folderVscode",
-    "vscode": "folderVscode",
-    "dist": "folderDist",
-    "node_modules": "folderNode",
-    "theme": "folderTheme",
-    "themes": "folderTheme",
-    "svg": "folderSvg",
-    "svgs": "folderSvg",
-    "image": "folderImage",
-    "images": "folderImage",
-    "icon": "folderImage",
-    "icons": "folderImage",
-    "illustration": "folderImage",
-    "illustrations": "folderImage",
-    "public": "folderPublic",
-    "test": "folderTest",
-    "tests": "folderTest",
-    "script": "folderScript",
-    "scripts": "folderScript",
-    "font": "folderFont",
-    "fonts": "folderFont"
+    "src": "folder_src",
+    "srcs": "folder_src",
+    "source": "folder_src",
+    "sources": "folder_src",
+    "code": "folder_src",
+    ".git": "folder_git",
+    "patches": "folder_git",
+    "githooks": "folder_git",
+    "githook": "folder_git",
+    "git_hook": "folder_git",
+    "git_hooks": "folder_git",
+    "submodules": "folder_git",
+    ".submodules": "folder_git",
+    ".github": "folder_github",
+    "github": "folder_github",
+    "graphql": "folder_graphql",
+    "gql": "folder_graphql",
+    "husky": "folder_husky",
+    ".husky": "folder_husky",
+    "yarn": "folder_yarn",
+    ".yarn": "folder_yarn",
+    "dist": "folder_dist",
+    "out": "folder_dist",
+    "build": "folder_dist",
+    "release": "folder_dist",
+    "bin": "folder_dist",
+    "_images": "folder_image",
+    "_image": "folder_image",
+    "_imgs": "folder_image",
+    "_img": "folder_image",
+    "images": "folder_image",
+    "image": "folder_image",
+    "imgs": "folder_image",
+    "img": "folder_image",
+    "icons": "folder_image",
+    "icon": "folder_image",
+    "icos": "folder_image",
+    "ico": "folder_image",
+    "figures": "folder_image",
+    "figure": "folder_image",
+    "figs": "folder_image",
+    "fig": "folder_image",
+    "screenshot": "folder_image",
+    "screenshots": "folder_image",
+    "screengrab": "folder_image",
+    "screengrabs": "folder_image",
+    "pic": "folder_image",
+    "pics": "folder_image",
+    "picture": "folder_image",
+    "pictures": "folder_image",
+    "illustration": "folder_image",
+    "illustrations": "folder_image",
+    "lua": "folder_lua",
+    "markdown": "folder_markdown",
+    "md": "folder_markdown",
+    "js": "folder_javascript",
+    "javascript": "folder_javascript",
+    "javascripts": "folder_javascript",
+    "_site": "folder_public",
+    "public": "folder_public",
+    "www": "folder_public",
+    "wwwroot": "folder_public",
+    "web": "folder_public",
+    "website": "folder_public",
+    "site": "folder_public",
+    "browser": "folder_public",
+    "browsers": "folder_public",
+    "docker": "folder_docker",
+    "dockerfiles": "folder_docker",
+    ".docker": "folder_docker",
+    "sass": "folder_sass",
+    "_sass": "folder_sass",
+    "scss": "folder_sass",
+    "_scss": "folder_sass",
+    ".expo": "folder_expo",
+    ".expo-shared": "folder_expo",
+    "font": "folder_font",
+    "fonts": "folder_font",
+    "script": "folder_script",
+    "scripts": "folder_script",
+    "svg": "folder_svg",
+    "svgs": "folder_svg",
+    "node_modules": "folder_node",
+    "prisma": "folder_prisma",
+    "test": "folder_test",
+    "tests": "folder_test",
+    "testing": "folder_test",
+    "__tests__": "folder_test",
+    "__snapshots__": "folder_test",
+    "__mocks__": "folder_test",
+    "__fixtures__": "folder_test",
+    "__test__": "folder_test",
+    "spec": "folder_test",
+    "specs": "folder_test",
+    "themes": "folder_theme",
+    "theme": "folder_theme",
+    "color": "folder_theme",
+    "colors": "folder_theme",
+    "design": "folder_theme",
+    "designs": "folder_theme",
+    "webpack": "folder_webpack",
+    ".webpack": "folder_webpack",
+    ".vscode": "folder_vscode",
+    ".vscode-test": "folder_vscode",
+    "vercel": "folder_vercel",
+    ".vercel": "folder_vercel",
+    "now": "folder_vercel",
+    ".now": "folder_vercel",
+    "typescript": "folder_typescript",
+    "ts": "folder_typescript",
+    "typings": "folder_typescript",
+    "@types": "folder_typescript",
+    "types": "folder_typescript",
+    "apollo": "folder_apollo",
+    "apollo-client": "folder_apollo",
+    "apollo-cache": "folder_apollo",
+    "apollo-config": "folder_apollo",
+    "css": "folder_css",
+    "stylesheet": "folder_css",
+    "stylesheets": "folder_css",
+    "style": "folder_css",
+    "styles": "folder_css"
   },
   "folderNamesExpanded": {
-    "src": "folderSrcExpanded",
-    ".git": "folderGitExpanded",
-    ".github": "folderGithubExpanded",
-    ".vscode": "folderVscodeExpanded",
-    "vscode": "folderVscodeExpanded",
-    "dist": "folderDistExpanded",
-    "node_modules": "folderNodeExpanded",
-    "theme": "folderThemeExpanded",
-    "themes": "folderThemeExpanded",
-    "svg": "folderSvgExpanded",
-    "svgs": "folderSvgExpanded",
-    "image": "folderImageExpanded",
-    "images": "folderImageExpanded",
-    "icon": "folderImageExpanded",
-    "icons": "folderImageExpanded",
-    "illustration": "folderImageExpanded",
-    "illustrations": "folderImageExpanded",
-    "public": "folderPublicExpanded",
-    "test": "folderTestExpanded",
-    "tests": "folderTestExpanded",
-    "script": "folderScriptExpanded",
-    "scripts": "folderScriptExpanded",
-    "font": "folderFontExpanded",
-    "fonts": "folderFontExpanded"
+    "src": "folder_src_expanded",
+    "srcs": "folder_src_expanded",
+    "source": "folder_src_expanded",
+    "sources": "folder_src_expanded",
+    "code": "folder_src_expanded",
+    ".git": "folder_git_expanded",
+    "patches": "folder_git_expanded",
+    "githooks": "folder_git_expanded",
+    "githook": "folder_git_expanded",
+    "git_hook": "folder_git_expanded",
+    "git_hooks": "folder_git_expanded",
+    "submodules": "folder_git_expanded",
+    ".submodules": "folder_git_expanded",
+    ".github": "folder_github_expanded",
+    "github": "folder_github_expanded",
+    "graphql": "folder_graphql_expanded",
+    "gql": "folder_graphql_expanded",
+    "husky": "folder_husky_expanded",
+    ".husky": "folder_husky_expanded",
+    "yarn": "folder_yarn_expanded",
+    ".yarn": "folder_yarn_expanded",
+    "dist": "folder_dist_expanded",
+    "out": "folder_dist_expanded",
+    "build": "folder_dist_expanded",
+    "release": "folder_dist_expanded",
+    "bin": "folder_dist_expanded",
+    "_images": "folder_image_expanded",
+    "_image": "folder_image_expanded",
+    "_imgs": "folder_image_expanded",
+    "_img": "folder_image_expanded",
+    "images": "folder_image_expanded",
+    "image": "folder_image_expanded",
+    "imgs": "folder_image_expanded",
+    "img": "folder_image_expanded",
+    "icons": "folder_image_expanded",
+    "icon": "folder_image_expanded",
+    "icos": "folder_image_expanded",
+    "ico": "folder_image_expanded",
+    "figures": "folder_image_expanded",
+    "figure": "folder_image_expanded",
+    "figs": "folder_image_expanded",
+    "fig": "folder_image_expanded",
+    "screenshot": "folder_image_expanded",
+    "screenshots": "folder_image_expanded",
+    "screengrab": "folder_image_expanded",
+    "screengrabs": "folder_image_expanded",
+    "pic": "folder_image_expanded",
+    "pics": "folder_image_expanded",
+    "picture": "folder_image_expanded",
+    "pictures": "folder_image_expanded",
+    "illustration": "folder_image_expanded",
+    "illustrations": "folder_image_expanded",
+    "lua": "folder_lua_expanded",
+    "markdown": "folder_markdown_expanded",
+    "md": "folder_markdown_expanded",
+    "js": "folder_javascript_expanded",
+    "javascript": "folder_javascript_expanded",
+    "javascripts": "folder_javascript_expanded",
+    "_site": "folder_public_expanded",
+    "public": "folder_public_expanded",
+    "www": "folder_public_expanded",
+    "wwwroot": "folder_public_expanded",
+    "web": "folder_public_expanded",
+    "website": "folder_public_expanded",
+    "site": "folder_public_expanded",
+    "browser": "folder_public_expanded",
+    "browsers": "folder_public_expanded",
+    "docker": "folder_docker_expanded",
+    "dockerfiles": "folder_docker_expanded",
+    ".docker": "folder_docker_expanded",
+    "sass": "folder_sass_expanded",
+    "_sass": "folder_sass_expanded",
+    "scss": "folder_sass_expanded",
+    "_scss": "folder_sass_expanded",
+    ".expo": "folder_expo_expanded",
+    ".expo-shared": "folder_expo_expanded",
+    "font": "folder_font_expanded",
+    "fonts": "folder_font_expanded",
+    "script": "folder_script_expanded",
+    "scripts": "folder_script_expanded",
+    "svg": "folder_svg_expanded",
+    "svgs": "folder_svg_expanded",
+    "node_modules": "folder_node_expanded",
+    "prisma": "folder_prisma_expanded",
+    "test": "folder_test_expanded",
+    "tests": "folder_test_expanded",
+    "testing": "folder_test_expanded",
+    "__tests__": "folder_test_expanded",
+    "__snapshots__": "folder_test_expanded",
+    "__mocks__": "folder_test_expanded",
+    "__fixtures__": "folder_test_expanded",
+    "__test__": "folder_test_expanded",
+    "spec": "folder_test_expanded",
+    "specs": "folder_test_expanded",
+    "themes": "folder_theme_expanded",
+    "theme": "folder_theme_expanded",
+    "color": "folder_theme_expanded",
+    "colors": "folder_theme_expanded",
+    "design": "folder_theme_expanded",
+    "designs": "folder_theme_expanded",
+    "webpack": "folder_webpack_expanded",
+    ".webpack": "folder_webpack_expanded",
+    ".vscode": "folder_vscode_expanded",
+    ".vscode-test": "folder_vscode_expanded",
+    "vercel": "folder_vercel_expanded",
+    ".vercel": "folder_vercel_expanded",
+    "now": "folder_vercel_expanded",
+    ".now": "folder_vercel_expanded",
+    "typescript": "folder_typescript_expanded",
+    "ts": "folder_typescript_expanded",
+    "typings": "folder_typescript_expanded",
+    "@types": "folder_typescript_expanded",
+    "types": "folder_typescript_expanded",
+    "apollo": "folder_apollo_expanded",
+    "apollo-client": "folder_apollo_expanded",
+    "apollo-cache": "folder_apollo_expanded",
+    "apollo-config": "folder_apollo_expanded",
+    "css": "folder_css_expanded",
+    "stylesheet": "folder_css_expanded",
+    "stylesheets": "folder_css_expanded",
+    "style": "folder_css_expanded",
+    "styles": "folder_css_expanded"
   },
   "hidesExplorerArrows": true,
   "folder": "folder",
-  "folderExpanded": "folderExpanded",
+  "folderExpanded": "folder_expanded",
   "file": "file"
 }

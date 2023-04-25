@@ -23,7 +23,7 @@ const themeIcons =
   },
   'hidesExplorerArrows': true,
   'folder': 'folder',
-  'folderExpanded': 'folderExpanded',
+  'folderExpanded': 'folder_expanded',
   'file': 'file'
 };
 
