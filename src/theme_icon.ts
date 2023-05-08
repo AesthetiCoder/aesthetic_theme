@@ -10,6 +10,10 @@ const themeIcons =
   fileExtensions: {
     ...programmingIcons.fileExtensions
   },
+  fileNames:
+  {
+    ...programmingIcons.fileNames
+  },
   languageIds: {
     ...programmingIcons.languageIds
   },

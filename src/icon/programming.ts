@@ -1,29 +1,27 @@
-
+import type { IconType } from '../type/icon_type';
+import { generateIcon } from '../util/generate_icon';
+import { generateIconName } from '../util/generate_icon_name';
 
 const programmingIcons =
 {
   iconDefinitions:
   {
-    /*
-    file:
-    {
-      iconPath: `${iconPath}file.svg`
-    },
-    ts:
-    {
-      iconPath: `${iconPath}typescript.svg`
-    }
-    */
+    ...generateIcon()
+  },
+  fileNames:
+  {
+    ...Object.assign({}, ...generateIconName().map(el => el.fileNames)) as IconType
   },
   fileExtensions:
   {
-    ts: 'ts'
+    ...Object.assign({}, ...generateIconName().map(el => el.fileExtensions)) as IconType
   },
   languageIds:
   {
-    'typescript': 'ts'
+    ...Object.assign({}, ...generateIconName().map(el => el.languageIds)) as IconType
   }
-
 };
+
+
 
 export { programmingIcons };

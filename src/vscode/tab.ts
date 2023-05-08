@@ -1,5 +1,5 @@
 import { background, base, gray } from '../theme/colors';
-import { alpha } from '../utils/alpha';
+import { alpha } from '../util/alpha';
 
 const tab = {
   'editorGroupHeader.noTabsBackground': background.background_900,

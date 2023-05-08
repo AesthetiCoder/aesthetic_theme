@@ -1,7 +1,7 @@
 
-import type { FolderName } from '../types/folder_name_type';
-import { generateFolderName } from '../utils/generate_folder_name';
-import { getIconFolder } from '../utils/get_icon_folder';
+import type { FolderType } from '../type/folder_type';
+import { generateFolderName } from '../util/generate_folder_name';
+import { getIconFolder } from '../util/get_icon_folder';
 
 const folder =
 {
@@ -11,11 +11,11 @@ const folder =
   },
   folderNames:
   {
-    ...Object.assign({}, ...generateFolderName()) as FolderName
+    ...Object.assign({}, ...generateFolderName()) as FolderType
   },
   folderNamesExpanded:
   {
-    ...Object.assign({}, ...generateFolderName(true)) as FolderName
+    ...Object.assign({}, ...generateFolderName(true)) as FolderType
   }
 };
 

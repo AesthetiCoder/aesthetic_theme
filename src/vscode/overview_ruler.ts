@@ -1,7 +1,7 @@
 import {
   danger, information, purple, success, warning
 } from '../theme/colors';
-import { alpha } from '../utils/alpha';
+import { alpha } from '../util/alpha';
 
 const overviewRuler = {
   'editorOverviewRuler.findMatchForeground': alpha(information.information_600, 0.45),

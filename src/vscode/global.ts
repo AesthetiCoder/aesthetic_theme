@@ -1,7 +1,7 @@
 import {
   background, base, danger, gray, information, warning
 } from '../theme/colors';
-import { alpha } from '../utils/alpha';
+import { alpha } from '../util/alpha';
 import { activityBar } from './activity_bar';
 import { button } from './button';
 import { dropdown } from './dropdown';
@@ -18,7 +18,8 @@ import { statusBar } from './status_bar';
 import { tab } from './tab';
 import { widget } from './widget';
 
-const global = {
+const global =
+{
   foreground: gray.gray_500,
   focusBorder: base.transparent,
   errorForeground: gray.gray_500,

@@ -6,6 +6,12 @@
   "categories": [
     "Themes"
   ],
+  "homepage": "https://github.com/LuisCoderDev/luis_theme",
+  "bugs": "https://github.com/LuisCoderDev/luis_theme/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LuisCoderDev/luis_theme"
+  },
   "engines": {
     "vscode": "^1.74.0",
     "node": "^14.18.0 || >=16.0.0",
@@ -14,6 +20,7 @@
     "pnpm": ">=7.14.0"
   },
   "scripts": {
+    "postinstall": "git config core.hooksPath ./script/git_hook",
     "preinstall": "npx only-allow pnpm",
     "type-check": "tsc --pretty --noEmit",
     "lint": "eslint --ext .ts . --fix",

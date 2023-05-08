@@ -1,7 +1,25 @@
 {
   "iconDefinitions": {
+    "folder-1": {
+      "iconPath": "./../src/asset/icon/folder-1.svg"
+    },
     "folder": {
       "iconPath": "./../src/asset/icon/folder.svg"
+    },
+    "folder_action": {
+      "iconPath": "./../src/asset/icon/folder_action.svg"
+    },
+    "folder_action_expanded": {
+      "iconPath": "./../src/asset/icon/folder_action_expanded.svg"
+    },
+    "folder_admin": {
+      "iconPath": "./../src/asset/icon/folder_admin.svg"
+    },
+    "folder_admin_expanded": {
+      "iconPath": "./../src/asset/icon/folder_admin_expanded.svg"
+    },
+    "folder_admn": {
+      "iconPath": "./../src/asset/icon/folder_admn.svg"
     },
     "folder_android": {
       "iconPath": "./../src/asset/icon/folder_android.svg"
@@ -15,17 +33,41 @@
     "folder_angular_expanded": {
       "iconPath": "./../src/asset/icon/folder_angular_expanded.svg"
     },
+    "folder_animation": {
+      "iconPath": "./../src/asset/icon/folder_animation.svg"
+    },
+    "folder_animation_expanded": {
+      "iconPath": "./../src/asset/icon/folder_animation_expanded.svg"
+    },
     "folder_ansible": {
       "iconPath": "./../src/asset/icon/folder_ansible.svg"
     },
     "folder_ansible_expanded": {
       "iconPath": "./../src/asset/icon/folder_ansible_expanded.svg"
     },
+    "folder_api": {
+      "iconPath": "./../src/asset/icon/folder_api.svg"
+    },
+    "folder_api_expanded": {
+      "iconPath": "./../src/asset/icon/folder_api_expanded.svg"
+    },
     "folder_apollo": {
       "iconPath": "./../src/asset/icon/folder_apollo.svg"
     },
     "folder_apollo_expanded": {
       "iconPath": "./../src/asset/icon/folder_apollo_expanded.svg"
+    },
+    "folder_app": {
+      "iconPath": "./../src/asset/icon/folder_app.svg"
+    },
+    "folder_app_expanded": {
+      "iconPath": "./../src/asset/icon/folder_app_expanded.svg"
+    },
+    "folder_archive": {
+      "iconPath": "./../src/asset/icon/folder_archive.svg"
+    },
+    "folder_archive_expanded": {
+      "iconPath": "./../src/asset/icon/folder_archive_expanded.svg"
     },
     "folder_aurelia": {
       "iconPath": "./../src/asset/icon/folder_aurelia.svg"
@@ -45,6 +87,18 @@
     "folder_azure_expanded": {
       "iconPath": "./../src/asset/icon/folder_azure_expanded.svg"
     },
+    "folder_base": {
+      "iconPath": "./../src/asset/icon/folder_base.svg"
+    },
+    "folder_base_expanded": {
+      "iconPath": "./../src/asset/icon/folder_base_expanded.svg"
+    },
+    "folder_benchmark": {
+      "iconPath": "./../src/asset/icon/folder_benchmark.svg"
+    },
+    "folder_benchmark_expanded": {
+      "iconPath": "./../src/asset/icon/folder_benchmark_expanded.svg"
+    },
     "folder_bower": {
       "iconPath": "./../src/asset/icon/folder_bower.svg"
     },
@@ -57,11 +111,56 @@
     "folder_buildkite_expanded": {
       "iconPath": "./../src/asset/icon/folder_buildkite_expanded.svg"
     },
+    "folder_cart": {
+      "iconPath": "./../src/asset/icon/folder_cart.svg"
+    },
+    "folder_cart_expanded": {
+      "iconPath": "./../src/asset/icon/folder_cart_expanded.svg"
+    },
+    "folder_changeset": {
+      "iconPath": "./../src/asset/icon/folder_changeset.svg"
+    },
+    "folder_changeset_expanded-1": {
+      "iconPath": "./../src/asset/icon/folder_changeset_expanded-1.svg"
+    },
+    "folder_changeset_expanded": {
+      "iconPath": "./../src/asset/icon/folder_changeset_expanded.svg"
+    },
+    "folder_chengeset-1": {
+      "iconPath": "./../src/asset/icon/folder_chengeset-1.svg"
+    },
+    "folder_chengeset": {
+      "iconPath": "./../src/asset/icon/folder_chengeset.svg"
+    },
+    "folder_ci": {
+      "iconPath": "./../src/asset/icon/folder_ci.svg"
+    },
     "folder_circle_ci": {
       "iconPath": "./../src/asset/icon/folder_circle_ci.svg"
     },
     "folder_circle_ci_expanded": {
       "iconPath": "./../src/asset/icon/folder_circle_ci_expanded.svg"
+    },
+    "folder_ci_expanded": {
+      "iconPath": "./../src/asset/icon/folder_ci_expanded.svg"
+    },
+    "folder_class": {
+      "iconPath": "./../src/asset/icon/folder_class.svg"
+    },
+    "folder_class_expanded": {
+      "iconPath": "./../src/asset/icon/folder_class_expanded.svg"
+    },
+    "folder_client": {
+      "iconPath": "./../src/asset/icon/folder_client.svg"
+    },
+    "folder_client_expanded": {
+      "iconPath": "./../src/asset/icon/folder_client_expanded.svg"
+    },
+    "folder_cluster": {
+      "iconPath": "./../src/asset/icon/folder_cluster.svg"
+    },
+    "folder_cluster_expanded": {
+      "iconPath": "./../src/asset/icon/folder_cluster_expanded.svg"
     },
     "folder_cobol": {
       "iconPath": "./../src/asset/icon/folder_cobol.svg"
@@ -69,17 +168,113 @@
     "folder_cobol_expanded": {
       "iconPath": "./../src/asset/icon/folder_cobol_expanded.svg"
     },
+    "folder_command": {
+      "iconPath": "./../src/asset/icon/folder_command.svg"
+    },
+    "folder_command_expanded": {
+      "iconPath": "./../src/asset/icon/folder_command_expanded.svg"
+    },
+    "folder_component": {
+      "iconPath": "./../src/asset/icon/folder_component.svg"
+    },
+    "folder_component_expanded": {
+      "iconPath": "./../src/asset/icon/folder_component_expanded.svg"
+    },
+    "folder_config": {
+      "iconPath": "./../src/asset/icon/folder_config.svg"
+    },
+    "folder_config_expanded": {
+      "iconPath": "./../src/asset/icon/folder_config_expanded.svg"
+    },
+    "folder_connection": {
+      "iconPath": "./../src/asset/icon/folder_connection.svg"
+    },
+    "folder_connection_expanded": {
+      "iconPath": "./../src/asset/icon/folder_connection_expanded.svg"
+    },
+    "folder_constant": {
+      "iconPath": "./../src/asset/icon/folder_constant.svg"
+    },
+    "folder_constant_expanded": {
+      "iconPath": "./../src/asset/icon/folder_constant_expanded.svg"
+    },
+    "folder_container": {
+      "iconPath": "./../src/asset/icon/folder_container.svg"
+    },
+    "folder_container_expanded": {
+      "iconPath": "./../src/asset/icon/folder_container_expanded.svg"
+    },
+    "folder_content": {
+      "iconPath": "./../src/asset/icon/folder_content.svg"
+    },
+    "folder_content_expanded": {
+      "iconPath": "./../src/asset/icon/folder_content_expanded.svg"
+    },
+    "folder_context": {
+      "iconPath": "./../src/asset/icon/folder_context.svg"
+    },
+    "folder_context_expanded": {
+      "iconPath": "./../src/asset/icon/folder_context_expanded.svg"
+    },
+    "folder_contract": {
+      "iconPath": "./../src/asset/icon/folder_contract.svg"
+    },
+    "folder_contract_expanded": {
+      "iconPath": "./../src/asset/icon/folder_contract_expanded.svg"
+    },
+    "folder_controller": {
+      "iconPath": "./../src/asset/icon/folder_controller.svg"
+    },
+    "folder_controller_expanded": {
+      "iconPath": "./../src/asset/icon/folder_controller_expanded.svg"
+    },
+    "folder_core": {
+      "iconPath": "./../src/asset/icon/folder_core.svg"
+    },
+    "folder_core_expanded": {
+      "iconPath": "./../src/asset/icon/folder_core_expanded.svg"
+    },
+    "folder_coverage": {
+      "iconPath": "./../src/asset/icon/folder_coverage.svg"
+    },
+    "folder_coverage_expanded": {
+      "iconPath": "./../src/asset/icon/folder_coverage_expanded.svg"
+    },
     "folder_css": {
       "iconPath": "./../src/asset/icon/folder_css.svg"
     },
     "folder_css_expanded": {
       "iconPath": "./../src/asset/icon/folder_css_expanded.svg"
     },
+    "folder_custom": {
+      "iconPath": "./../src/asset/icon/folder_custom.svg"
+    },
+    "folder_custom_expanded": {
+      "iconPath": "./../src/asset/icon/folder_custom_expanded.svg"
+    },
     "folder_cypress": {
       "iconPath": "./../src/asset/icon/folder_cypress.svg"
     },
     "folder_cypress_expanded": {
       "iconPath": "./../src/asset/icon/folder_cypress_expanded.svg"
+    },
+    "folder_database": {
+      "iconPath": "./../src/asset/icon/folder_database.svg"
+    },
+    "folder_database_expanded": {
+      "iconPath": "./../src/asset/icon/folder_database_expanded.svg"
+    },
+    "folder_debug": {
+      "iconPath": "./../src/asset/icon/folder_debug.svg"
+    },
+    "folder_debug_expanded": {
+      "iconPath": "./../src/asset/icon/folder_debug_expanded.svg"
+    },
+    "folder_decorator": {
+      "iconPath": "./../src/asset/icon/folder_decorator.svg"
+    },
+    "folder_decorator_expanded": {
+      "iconPath": "./../src/asset/icon/folder_decorator_expanded.svg"
     },
     "folder_delta": {
       "iconPath": "./../src/asset/icon/folder_delta.svg"
@@ -111,6 +306,48 @@
     "folder_download_expanded": {
       "iconPath": "./../src/asset/icon/folder_download_expanded.svg"
     },
+    "folder_dump": {
+      "iconPath": "./../src/asset/icon/folder_dump.svg"
+    },
+    "folder_dump_expanded": {
+      "iconPath": "./../src/asset/icon/folder_dump_expanded.svg"
+    },
+    "folder_effect": {
+      "iconPath": "./../src/asset/icon/folder_effect.svg"
+    },
+    "folder_effect_expanded": {
+      "iconPath": "./../src/asset/icon/folder_effect_expanded.svg"
+    },
+    "folder_entitie": {
+      "iconPath": "./../src/asset/icon/folder_entitie.svg"
+    },
+    "folder_entitie_expanded": {
+      "iconPath": "./../src/asset/icon/folder_entitie_expanded.svg"
+    },
+    "folder_entity": {
+      "iconPath": "./../src/asset/icon/folder_entity.svg"
+    },
+    "folder_entity_expanded": {
+      "iconPath": "./../src/asset/icon/folder_entity_expanded.svg"
+    },
+    "folder_environment": {
+      "iconPath": "./../src/asset/icon/folder_environment.svg"
+    },
+    "folder_environment_expanded": {
+      "iconPath": "./../src/asset/icon/folder_environment_expanded.svg"
+    },
+    "folder_error": {
+      "iconPath": "./../src/asset/icon/folder_error.svg"
+    },
+    "folder_error_expanded": {
+      "iconPath": "./../src/asset/icon/folder_error_expanded.svg"
+    },
+    "folder_event": {
+      "iconPath": "./../src/asset/icon/folder_event.svg"
+    },
+    "folder_event_expanded": {
+      "iconPath": "./../src/asset/icon/folder_event_expanded.svg"
+    },
     "folder_example": {
       "iconPath": "./../src/asset/icon/folder_example.svg"
     },
@@ -122,6 +359,12 @@
     },
     "folder_expo": {
       "iconPath": "./../src/asset/icon/folder_expo.svg"
+    },
+    "folder_export": {
+      "iconPath": "./../src/asset/icon/folder_export.svg"
+    },
+    "folder_export_expanded": {
+      "iconPath": "./../src/asset/icon/folder_export_expanded.svg"
     },
     "folder_expo_expanded": {
       "iconPath": "./../src/asset/icon/folder_expo_expanded.svg"
@@ -153,11 +396,23 @@
     "folder_font_expanded": {
       "iconPath": "./../src/asset/icon/folder_font_expanded.svg"
     },
-    "folder_gamemaker_directive": {
-      "iconPath": "./../src/asset/icon/folder_gamemaker_directive.svg"
+    "folder_function": {
+      "iconPath": "./../src/asset/icon/folder_function.svg"
+    },
+    "folder_function_expanded": {
+      "iconPath": "./../src/asset/icon/folder_function_expanded.svg"
+    },
+    "folder_gamemaker": {
+      "iconPath": "./../src/asset/icon/folder_gamemaker.svg"
     },
     "folder_gamemaker_expanded": {
       "iconPath": "./../src/asset/icon/folder_gamemaker_expanded.svg"
+    },
+    "folder_generated": {
+      "iconPath": "./../src/asset/icon/folder_generated.svg"
+    },
+    "folder_generated_expanded": {
+      "iconPath": "./../src/asset/icon/folder_generated_expanded.svg"
     },
     "folder_git": {
       "iconPath": "./../src/asset/icon/folder_git.svg"
@@ -177,6 +432,12 @@
     "folder_git_expanded": {
       "iconPath": "./../src/asset/icon/folder_git_expanded.svg"
     },
+    "folder_global": {
+      "iconPath": "./../src/asset/icon/folder_global.svg"
+    },
+    "folder_global_expanded": {
+      "iconPath": "./../src/asset/icon/folder_global_expanded.svg"
+    },
     "folder_godot": {
       "iconPath": "./../src/asset/icon/folder_godot.svg"
     },
@@ -195,11 +456,35 @@
     "folder_graphql_expanded": {
       "iconPath": "./../src/asset/icon/folder_graphql_expanded.svg"
     },
+    "folder_guard": {
+      "iconPath": "./../src/asset/icon/folder_guard.svg"
+    },
+    "folder_guard_expanded": {
+      "iconPath": "./../src/asset/icon/folder_guard_expanded.svg"
+    },
     "folder_gulp": {
       "iconPath": "./../src/asset/icon/folder_gulp.svg"
     },
     "folder_gulp_expanded": {
       "iconPath": "./../src/asset/icon/folder_gulp_expanded.svg"
+    },
+    "folder_helper": {
+      "iconPath": "./../src/asset/icon/folder_helper.svg"
+    },
+    "folder_helper_expanded": {
+      "iconPath": "./../src/asset/icon/folder_helper_expanded.svg"
+    },
+    "folder_home": {
+      "iconPath": "./../src/asset/icon/folder_home.svg"
+    },
+    "folder_home_expanded": {
+      "iconPath": "./../src/asset/icon/folder_home_expanded.svg"
+    },
+    "folder_hook": {
+      "iconPath": "./../src/asset/icon/folder_hook.svg"
+    },
+    "folder_hook_expanded": {
+      "iconPath": "./../src/asset/icon/folder_hook_expanded.svg"
     },
     "folder_husky": {
       "iconPath": "./../src/asset/icon/folder_husky.svg"
@@ -213,11 +498,29 @@
     "folder_image_expanded": {
       "iconPath": "./../src/asset/icon/folder_image_expanded.svg"
     },
+    "folder_import": {
+      "iconPath": "./../src/asset/icon/folder_import.svg"
+    },
+    "folder_import_expanded": {
+      "iconPath": "./../src/asset/icon/folder_import_expanded.svg"
+    },
+    "folder_include": {
+      "iconPath": "./../src/asset/icon/folder_include.svg"
+    },
+    "folder_include_expanded": {
+      "iconPath": "./../src/asset/icon/folder_include_expanded.svg"
+    },
     "folder_intellij": {
       "iconPath": "./../src/asset/icon/folder_intellij.svg"
     },
     "folder_intellij_expanded": {
       "iconPath": "./../src/asset/icon/folder_intellij_expanded.svg"
+    },
+    "folder_interface": {
+      "iconPath": "./../src/asset/icon/folder_interface.svg"
+    },
+    "folder_interface_expanded": {
+      "iconPath": "./../src/asset/icon/folder_interface_expanded.svg"
     },
     "folder_ios": {
       "iconPath": "./../src/asset/icon/folder_ios.svg"
@@ -243,11 +546,23 @@
     "folder_jinja_expanded": {
       "iconPath": "./../src/asset/icon/folder_jinja_expanded.svg"
     },
+    "folder_job": {
+      "iconPath": "./../src/asset/icon/folder_job.svg"
+    },
+    "folder_job_expanded": {
+      "iconPath": "./../src/asset/icon/folder_job_expanded.svg"
+    },
     "folder_json": {
       "iconPath": "./../src/asset/icon/folder_json.svg"
     },
     "folder_json_expanded": {
       "iconPath": "./../src/asset/icon/folder_json_expanded.svg"
+    },
+    "folder_key": {
+      "iconPath": "./../src/asset/icon/folder_key.svg"
+    },
+    "folder_key_expanded": {
+      "iconPath": "./../src/asset/icon/folder_key_expanded.svg"
     },
     "folder_kubernetes": {
       "iconPath": "./../src/asset/icon/folder_kubernetes.svg"
@@ -255,17 +570,53 @@
     "folder_kubernetes_expanded": {
       "iconPath": "./../src/asset/icon/folder_kubernetes_expanded.svg"
     },
+    "folder_language": {
+      "iconPath": "./../src/asset/icon/folder_language.svg"
+    },
+    "folder_language_expanded": {
+      "iconPath": "./../src/asset/icon/folder_language_expanded.svg"
+    },
+    "folder_layout": {
+      "iconPath": "./../src/asset/icon/folder_layout.svg"
+    },
+    "folder_layout_expanded": {
+      "iconPath": "./../src/asset/icon/folder_layout_expanded.svg"
+    },
     "folder_less": {
       "iconPath": "./../src/asset/icon/folder_less.svg"
     },
     "folder_less_expanded": {
       "iconPath": "./../src/asset/icon/folder_less_expanded.svg"
     },
+    "folder_lib": {
+      "iconPath": "./../src/asset/icon/folder_lib.svg"
+    },
+    "folder_lib_expanded": {
+      "iconPath": "./../src/asset/icon/folder_lib_expanded.svg"
+    },
+    "folder_log": {
+      "iconPath": "./../src/asset/icon/folder_log.svg"
+    },
+    "folder_log_expanded": {
+      "iconPath": "./../src/asset/icon/folder_log_expanded.svg"
+    },
     "folder_lua": {
       "iconPath": "./../src/asset/icon/folder_lua.svg"
     },
     "folder_lua_expanded": {
       "iconPath": "./../src/asset/icon/folder_lua_expanded.svg"
+    },
+    "folder_mail": {
+      "iconPath": "./../src/asset/icon/folder_mail.svg"
+    },
+    "folder_mail_expanded": {
+      "iconPath": "./../src/asset/icon/folder_mail_expanded.svg"
+    },
+    "folder_mapping": {
+      "iconPath": "./../src/asset/icon/folder_mapping.svg"
+    },
+    "folder_mapping_expanded": {
+      "iconPath": "./../src/asset/icon/folder_mapping_expanded.svg"
     },
     "folder_markdown": {
       "iconPath": "./../src/asset/icon/folder_markdown.svg"
@@ -279,11 +630,41 @@
     "folder_mercurial_expanded": {
       "iconPath": "./../src/asset/icon/folder_mercurial_expanded.svg"
     },
+    "folder_message": {
+      "iconPath": "./../src/asset/icon/folder_message.svg"
+    },
+    "folder_message_expanded": {
+      "iconPath": "./../src/asset/icon/folder_message_expanded.svg"
+    },
+    "folder_meta": {
+      "iconPath": "./../src/asset/icon/folder_meta.svg"
+    },
+    "folder_meta_expanded": {
+      "iconPath": "./../src/asset/icon/folder_meta_expanded.svg"
+    },
+    "folder_middleware": {
+      "iconPath": "./../src/asset/icon/folder_middleware.svg"
+    },
+    "folder_middleware_expanded": {
+      "iconPath": "./../src/asset/icon/folder_middleware_expanded.svg"
+    },
     "folder_mjml": {
       "iconPath": "./../src/asset/icon/folder_mjml.svg"
     },
     "folder_mjml_expanded": {
       "iconPath": "./../src/asset/icon/folder_mjml_expanded.svg"
+    },
+    "folder_mobile": {
+      "iconPath": "./../src/asset/icon/folder_mobile.svg"
+    },
+    "folder_mobile_expanded": {
+      "iconPath": "./../src/asset/icon/folder_mobile_expanded.svg"
+    },
+    "folder_mock": {
+      "iconPath": "./../src/asset/icon/folder_mock.svg"
+    },
+    "folder_mock_expanded": {
+      "iconPath": "./../src/asset/icon/folder_mock_expanded.svg"
     },
     "folder_music": {
       "iconPath": "./../src/asset/icon/folder_music.svg"
@@ -357,6 +738,18 @@
     "folder_nuxt_expanded": {
       "iconPath": "./../src/asset/icon/folder_nuxt_expanded.svg"
     },
+    "folder_other": {
+      "iconPath": "./../src/asset/icon/folder_other.svg"
+    },
+    "folder_other_expanded": {
+      "iconPath": "./../src/asset/icon/folder_other_expanded.svg"
+    },
+    "folder_package": {
+      "iconPath": "./../src/asset/icon/folder_package.svg"
+    },
+    "folder_package_expanded": {
+      "iconPath": "./../src/asset/icon/folder_package_expanded.svg"
+    },
     "folder_pdf": {
       "iconPath": "./../src/asset/icon/folder_pdf.svg"
     },
@@ -369,17 +762,41 @@
     "folder_php_expanded": {
       "iconPath": "./../src/asset/icon/folder_php_expanded.svg"
     },
+    "folder_pipe": {
+      "iconPath": "./../src/asset/icon/folder_pipe.svg"
+    },
+    "folder_pipe_expanded": {
+      "iconPath": "./../src/asset/icon/folder_pipe_expanded.svg"
+    },
     "folder_plastic": {
       "iconPath": "./../src/asset/icon/folder_plastic.svg"
     },
     "folder_plastic_expanded": {
       "iconPath": "./../src/asset/icon/folder_plastic_expanded.svg"
     },
+    "folder_plugin": {
+      "iconPath": "./../src/asset/icon/folder_plugin.svg"
+    },
+    "folder_plugin_expanded": {
+      "iconPath": "./../src/asset/icon/folder_plugin_expanded.svg"
+    },
     "folder_prisma": {
       "iconPath": "./../src/asset/icon/folder_prisma.svg"
     },
     "folder_prisma_expanded": {
       "iconPath": "./../src/asset/icon/folder_prisma_expanded.svg"
+    },
+    "folder_private": {
+      "iconPath": "./../src/asset/icon/folder_private.svg"
+    },
+    "folder_private_expanded": {
+      "iconPath": "./../src/asset/icon/folder_private_expanded.svg"
+    },
+    "folder_project": {
+      "iconPath": "./../src/asset/icon/folder_project.svg"
+    },
+    "folder_project_expanded": {
+      "iconPath": "./../src/asset/icon/folder_project_expanded.svg"
     },
     "folder_proto": {
       "iconPath": "./../src/asset/icon/folder_proto.svg"
@@ -405,11 +822,23 @@
     "folder_quasar_expanded": {
       "iconPath": "./../src/asset/icon/folder_quasar_expanded.svg"
     },
+    "folder_queue": {
+      "iconPath": "./../src/asset/icon/folder_queue.svg"
+    },
+    "folder_queue_expanded": {
+      "iconPath": "./../src/asset/icon/folder_queue_expanded.svg"
+    },
     "folder_react_component": {
       "iconPath": "./../src/asset/icon/folder_react_component.svg"
     },
     "folder_react_component_expanded": {
       "iconPath": "./../src/asset/icon/folder_react_component_expanded.svg"
+    },
+    "folder_reducer": {
+      "iconPath": "./../src/asset/icon/folder_reducer.svg"
+    },
+    "folder_reducer_expanded": {
+      "iconPath": "./../src/asset/icon/folder_reducer_expanded.svg"
     },
     "folder_redux_action": {
       "iconPath": "./../src/asset/icon/folder_redux_action.svg"
@@ -441,6 +870,30 @@
     "folder_resolver_expanded": {
       "iconPath": "./../src/asset/icon/folder_resolver_expanded.svg"
     },
+    "folder_resource": {
+      "iconPath": "./../src/asset/icon/folder_resource.svg"
+    },
+    "folder_resource_expanded": {
+      "iconPath": "./../src/asset/icon/folder_resource_expanded.svg"
+    },
+    "folder_review": {
+      "iconPath": "./../src/asset/icon/folder_review.svg"
+    },
+    "folder_review_expanded": {
+      "iconPath": "./../src/asset/icon/folder_review_expanded.svg"
+    },
+    "folder_route": {
+      "iconPath": "./../src/asset/icon/folder_route.svg"
+    },
+    "folder_route_expanded": {
+      "iconPath": "./../src/asset/icon/folder_route_expanded.svg"
+    },
+    "folder_rule": {
+      "iconPath": "./../src/asset/icon/folder_rule.svg"
+    },
+    "folder_rule_expanded": {
+      "iconPath": "./../src/asset/icon/folder_rule_expanded.svg"
+    },
     "folder_sass": {
       "iconPath": "./../src/asset/icon/folder_sass.svg"
     },
@@ -459,17 +912,71 @@
     "folder_script_expanded": {
       "iconPath": "./../src/asset/icon/folder_script_expanded.svg"
     },
+    "folder_secure": {
+      "iconPath": "./../src/asset/icon/folder_secure.svg"
+    },
+    "folder_secure_expanded": {
+      "iconPath": "./../src/asset/icon/folder_secure_expanded.svg"
+    },
+    "folder_selector": {
+      "iconPath": "./../src/asset/icon/folder_selector.svg"
+    },
+    "folder_selector_expanded": {
+      "iconPath": "./../src/asset/icon/folder_selector_expanded.svg"
+    },
+    "folder_server": {
+      "iconPath": "./../src/asset/icon/folder_server.svg"
+    },
+    "folder_serverless": {
+      "iconPath": "./../src/asset/icon/folder_serverless.svg"
+    },
+    "folder_serverless_expanded": {
+      "iconPath": "./../src/asset/icon/folder_serverless_expanded.svg"
+    },
+    "folder_server_expanded": {
+      "iconPath": "./../src/asset/icon/folder_server_expanded.svg"
+    },
+    "folder_shader": {
+      "iconPath": "./../src/asset/icon/folder_shader.svg"
+    },
+    "folder_shader_expanded": {
+      "iconPath": "./../src/asset/icon/folder_shader_expanded.svg"
+    },
+    "folder_shared": {
+      "iconPath": "./../src/asset/icon/folder_shared.svg"
+    },
+    "folder_shared_expanded": {
+      "iconPath": "./../src/asset/icon/folder_shared_expanded.svg"
+    },
     "folder_src": {
       "iconPath": "./../src/asset/icon/folder_src.svg"
     },
     "folder_src_expanded": {
       "iconPath": "./../src/asset/icon/folder_src_expanded.svg"
     },
+    "folder_stack": {
+      "iconPath": "./../src/asset/icon/folder_stack.svg"
+    },
+    "folder_stack_expanded": {
+      "iconPath": "./../src/asset/icon/folder_stack_expanded.svg"
+    },
+    "folder_state": {
+      "iconPath": "./../src/asset/icon/folder_state.svg"
+    },
+    "folder_state_expanded": {
+      "iconPath": "./../src/asset/icon/folder_state_expanded.svg"
+    },
     "folder_stencil": {
       "iconPath": "./../src/asset/icon/folder_stencil.svg"
     },
     "folder_stencil_expanded": {
       "iconPath": "./../src/asset/icon/folder_stencil_expanded.svg"
+    },
+    "folder_store": {
+      "iconPath": "./../src/asset/icon/folder_store.svg"
+    },
+    "folder_store_expanded": {
+      "iconPath": "./../src/asset/icon/folder_store_expanded.svg"
     },
     "folder_storybook": {
       "iconPath": "./../src/asset/icon/folder_storybook.svg"
@@ -507,6 +1014,36 @@
     "folder_svg_expanded": {
       "iconPath": "./../src/asset/icon/folder_svg_expanded.svg"
     },
+    "folder_syntax": {
+      "iconPath": "./../src/asset/icon/folder_syntax.svg"
+    },
+    "folder_syntax_expanded": {
+      "iconPath": "./../src/asset/icon/folder_syntax_expanded.svg"
+    },
+    "folder_target": {
+      "iconPath": "./../src/asset/icon/folder_target.svg"
+    },
+    "folder_target_expanded": {
+      "iconPath": "./../src/asset/icon/folder_target_expanded.svg"
+    },
+    "folder_task": {
+      "iconPath": "./../src/asset/icon/folder_task.svg"
+    },
+    "folder_task_expanded": {
+      "iconPath": "./../src/asset/icon/folder_task_expanded.svg"
+    },
+    "folder_temp": {
+      "iconPath": "./../src/asset/icon/folder_temp.svg"
+    },
+    "folder_template": {
+      "iconPath": "./../src/asset/icon/folder_template.svg"
+    },
+    "folder_template_expanded": {
+      "iconPath": "./../src/asset/icon/folder_template_expanded.svg"
+    },
+    "folder_temp_expanded": {
+      "iconPath": "./../src/asset/icon/folder_temp_expanded.svg"
+    },
     "folder_terraform": {
       "iconPath": "./../src/asset/icon/folder_terraform.svg"
     },
@@ -525,6 +1062,12 @@
     "folder_theme_expanded": {
       "iconPath": "./../src/asset/icon/folder_theme_expanded.svg"
     },
+    "folder_tool": {
+      "iconPath": "./../src/asset/icon/folder_tool.svg"
+    },
+    "folder_tool_expanded": {
+      "iconPath": "./../src/asset/icon/folder_tool_expanded.svg"
+    },
     "folder_typescript": {
       "iconPath": "./../src/asset/icon/folder_typescript.svg"
     },
@@ -537,11 +1080,23 @@
     "folder_unity_expanded": {
       "iconPath": "./../src/asset/icon/folder_unity_expanded.svg"
     },
+    "folder_update": {
+      "iconPath": "./../src/asset/icon/folder_update.svg"
+    },
+    "folder_update_expanded": {
+      "iconPath": "./../src/asset/icon/folder_update_expanded.svg"
+    },
     "folder_upload": {
       "iconPath": "./../src/asset/icon/folder_upload.svg"
     },
     "folder_upload_expanded": {
       "iconPath": "./../src/asset/icon/folder_upload_expanded.svg"
+    },
+    "folder_util": {
+      "iconPath": "./../src/asset/icon/folder_util.svg"
+    },
+    "folder_util_expanded": {
+      "iconPath": "./../src/asset/icon/folder_util_expanded.svg"
     },
     "folder_vercel": {
       "iconPath": "./../src/asset/icon/folder_vercel.svg"
@@ -561,6 +1116,18 @@
     "folder_video_expanded": {
       "iconPath": "./../src/asset/icon/folder_video_expanded.svg"
     },
+    "folder_view": {
+      "iconPath": "./../src/asset/icon/folder_view.svg"
+    },
+    "folder_view_expanded": {
+      "iconPath": "./../src/asset/icon/folder_view_expanded.svg"
+    },
+    "folder_vm": {
+      "iconPath": "./../src/asset/icon/folder_vm.svg"
+    },
+    "folder_vm_expanded": {
+      "iconPath": "./../src/asset/icon/folder_vm_expanded.svg"
+    },
     "folder_vscode": {
       "iconPath": "./../src/asset/icon/folder_vscode.svg"
     },
@@ -569,18 +1136,6 @@
     },
     "folder_vue": {
       "iconPath": "./../src/asset/icon/folder_vue.svg"
-    },
-    "folder_vuepress": {
-      "iconPath": "./../src/asset/icon/folder_vuepress.svg"
-    },
-    "folder_vuepress_expanded": {
-      "iconPath": "./../src/asset/icon/folder_vuepress_expanded.svg"
-    },
-    "folder_vue_directive": {
-      "iconPath": "./../src/asset/icon/folder_vue_directive.svg"
-    },
-    "folder_vue_directive_expanded": {
-      "iconPath": "./../src/asset/icon/folder_vue_directive_expanded.svg"
     },
     "folder_vue_expanded": {
       "iconPath": "./../src/asset/icon/folder_vue_expanded.svg"
@@ -602,13 +1157,43 @@
     },
     "folder_yarn_expanded": {
       "iconPath": "./../src/asset/icon/folder_yarn_expanded.svg"
+    },
+    "astro": {
+      "iconPath": "./../src/asset/icon/astro.svg"
+    },
+    "file": {
+      "iconPath": "./../src/asset/icon/file.svg"
+    },
+    "typescript": {
+      "iconPath": "./../src/asset/icon/typescript.svg"
+    },
+    "Vector-1": {
+      "iconPath": "./../src/asset/icon/Vector-1.svg"
+    },
+    "Vector-2": {
+      "iconPath": "./../src/asset/icon/Vector-2.png"
+    },
+    "Vector-3": {
+      "iconPath": "./../src/asset/icon/Vector-3.png"
+    },
+    "Vector": {
+      "iconPath": "./../src/asset/icon/Vector.svg"
     }
   },
   "fileExtensions": {
-    "ts": "ts"
+    "astro": "astro",
+    "ts": "typescript"
+  },
+  "fileNames": {
+    "astro.config.js": "astro",
+    "astro.config.mjs": "astro",
+    "astro.config.cjs": "astro",
+    "astro.config.ts": "astro",
+    "astro.config.cts": "astro",
+    "astro.config.mts": "astro"
   },
   "languageIds": {
-    "typescript": "ts"
+    "ts": "typescript"
   },
   "folderNames": {
     "src": "folder_src",
@@ -681,6 +1266,15 @@
     "docker": "folder_docker",
     "dockerfiles": "folder_docker",
     ".docker": "folder_docker",
+    "actions": "folder_action",
+    "action": "folder_action",
+    "glsl": "folder_shader",
+    "hlsl": "folder_shader",
+    "shader": "folder_shader",
+    "shaders": "folder_shader",
+    "tasks": "folder_task",
+    "tickets": "folder_task",
+    "task": "folder_task",
     "sass": "folder_sass",
     "_sass": "folder_sass",
     "scss": "folder_sass",
@@ -695,6 +1289,55 @@
     "svgs": "folder_svg",
     "node_modules": "folder_node",
     "prisma": "folder_prisma",
+    "pipe": "folder_pipe",
+    "pipes": "folder_pipe",
+    "cluster": "folder_cluster",
+    "clusters": "folder_cluster",
+    "guard": "folder_guard",
+    "guards": "folder_guard",
+    "routes": "folder_route",
+    "router": "folder_route",
+    "routers": "folder_route",
+    "route": "folder_route",
+    "downloads": "folder_download",
+    "download": "folder_download",
+    "meta": "folder_meta",
+    "generator": "folder_generated",
+    "generators": "folder_generated",
+    "generated": "folder_generated",
+    "cfn_gen": "folder_generated",
+    "gen": "folder_generated",
+    "gens": "folder_generated",
+    "auto": "folder_generated",
+    "util": "folder_util",
+    "utils": "folder_util",
+    "utility": "folder_util",
+    "utilities": "folder_util",
+    ".env": "folder_environment",
+    ".environment": "folder_environment",
+    "env": "folder_environment",
+    "envs": "folder_environment",
+    "environment": "folder_environment",
+    "environments": "folder_environment",
+    ".venv": "folder_environment",
+    "update": "folder_update",
+    "updates": "folder_update",
+    "upgrade": "folder_update",
+    "upgrades": "folder_update",
+    "cart": "folder_cart",
+    "shopping_cart": "folder_cart",
+    "shopping": "folder_cart",
+    "shop": "folder_cart",
+    "context": "folder_context",
+    "contexts": "folder_context",
+    "coverage": "folder_coverage",
+    ".nyc_output": "folder_coverage",
+    "e2e": "folder_coverage",
+    "it": "folder_coverage",
+    "integration_test": "folder_coverage",
+    "integration_tests": "folder_coverage",
+    "__integration_test__": "folder_coverage",
+    "__integration_tests__": "folder_coverage",
     "test": "folder_test",
     "tests": "folder_test",
     "testing": "folder_test",
@@ -705,6 +1348,36 @@
     "__test__": "folder_test",
     "spec": "folder_test",
     "specs": "folder_test",
+    "import": "folder_import",
+    "imports": "folder_import",
+    "imported": "folder_import",
+    "db": "folder_database",
+    "database": "folder_database",
+    "databases": "folder_database",
+    "sql": "folder_database",
+    "data": "folder_database",
+    "_data": "folder_database",
+    "auth": "folder_secure",
+    "authentication": "folder_secure",
+    "secure": "folder_secure",
+    "security": "folder_secure",
+    "cert": "folder_secure",
+    "certs": "folder_secure",
+    "certificate": "folder_secure",
+    "certificates": "folder_secure",
+    "ssl": "folder_secure",
+    "_draft": "folder_mock",
+    "_drafts": "folder_mock",
+    "mock": "folder_mock",
+    "mocks": "folder_mock",
+    "fixture": "folder_mock",
+    "fixtures": "folder_mock",
+    "draft": "folder_mock",
+    "drafts": "folder_mock",
+    "concept": "folder_mock",
+    "concepts": "folder_mock",
+    "sketch": "folder_mock",
+    "sketches": "folder_mock",
     "_post": "folder_docs",
     "_posts": "folder_docs",
     "doc": "folder_docs",
@@ -740,6 +1413,77 @@
     "jsons": "folder_json",
     "mjml": "folder_mjml",
     "less": "folder_less",
+    "global": "folder_global",
+    "globals": "folder_global",
+    "shared": "folder_shared",
+    "common": "folder_shared",
+    "middleware": "folder_middleware",
+    "middlewares": "folder_middleware",
+    "base": "folder_base",
+    ".base": "folder_base",
+    "bases": "folder_base",
+    "template": "folder_template",
+    "templates": "folder_template",
+    "helpers": "folder_helper",
+    "helper": "folder_helper",
+    "export": "folder_export",
+    "exports": "folder_export",
+    "exported": "folder_export",
+    "custom": "folder_custom",
+    "customs": "folder_custom",
+    "uploads": "folder_upload",
+    "upload": "folder_upload",
+    "mobile": "folder_mobile",
+    "mobiles": "folder_mobile",
+    "portable": "folder_mobile",
+    "portability": "folder_mobile",
+    "view": "folder_view",
+    "views": "folder_view",
+    "screen": "folder_view",
+    "screens": "folder_view",
+    "page": "folder_view",
+    "pages": "folder_view",
+    "html": "folder_view",
+    "other": "folder_other",
+    "others": "folder_other",
+    "misc": "folder_other",
+    "miscellaneous": "folder_other",
+    "extra": "folder_other",
+    "extras": "folder_other",
+    "etc": "folder_other",
+    "arc": "folder_archive",
+    "arcs": "folder_archive",
+    "archive": "folder_archive",
+    "archives": "folder_archive",
+    "archival": "folder_archive",
+    "bkp": "folder_archive",
+    "bkps": "folder_archive",
+    "bak": "folder_archive",
+    "baks": "folder_archive",
+    "backup": "folder_archive",
+    "backups": "folder_archive",
+    "back_up": "folder_archive",
+    "back_ups": "folder_archive",
+    "decorator": "folder_decorator",
+    "decorators": "folder_decorator",
+    "i18n": "folder_language",
+    "internationalization": "folder_language",
+    "lang": "folder_language",
+    "langs": "folder_language",
+    "language": "folder_language",
+    "languages": "folder_language",
+    "locale": "folder_language",
+    "locales": "folder_language",
+    "l10n": "folder_language",
+    "localization": "folder_language",
+    "translation": "folder_language",
+    "translate": "folder_language",
+    "translations": "folder_language",
+    ".tx": "folder_language",
+    "hook": "folder_hook",
+    "hooks": "folder_hook",
+    "trigger": "folder_hook",
+    "triggers": "folder_hook",
     ".hg": "folder_mercurial",
     "hghooks": "folder_mercurial",
     ".hghooks": "folder_mercurial",
@@ -786,6 +1530,9 @@
     ".angular": "folder_angular",
     "ansible": "folder_ansible",
     "android": "folder_android",
+    "server": "folder_server",
+    "servers": "folder_server",
+    "backend": "folder_server",
     "vid": "folder_video",
     "vids": "folder_video",
     "video": "folder_video",
@@ -798,6 +1545,47 @@
     ".verdaccio": "folder_verdaccio",
     "verdaccio": "folder_verdaccio",
     "vue": "folder_vue",
+    "gamemaker": "folder_gamemaker",
+    "gamemaker2": "folder_gamemaker",
+    "store": "folder_store",
+    "stores": "folder_store",
+    "selectors": "folder_selector",
+    "selector": "folder_selector",
+    "private": "folder_private",
+    ".private": "folder_private",
+    "syntax": "folder_syntax",
+    "syntaxes": "folder_syntax",
+    "spellcheck": "folder_syntax",
+    "reducers": "folder_reducer",
+    "reducer": "folder_reducer",
+    "states": "folder_state",
+    "state": "folder_state",
+    "entities": "folder_entity",
+    "entity": "folder_entity",
+    "benchmark": "folder_benchmark",
+    "benchmarks": "folder_benchmark",
+    "performance": "folder_benchmark",
+    "measure": "folder_benchmark",
+    "measures": "folder_benchmark",
+    "measurement": "folder_benchmark",
+    "lib": "folder_lib",
+    "libs": "folder_lib",
+    "library": "folder_lib",
+    "libraries": "folder_lib",
+    "vendor": "folder_lib",
+    "vendors": "folder_lib",
+    "third_party": "folder_lib",
+    "api": "folder_api",
+    "apis": "folder_api",
+    "restapi": "folder_api",
+    "constant": "folder_constant",
+    "constants": "folder_constant",
+    "admin": "folder_admin",
+    "manager": "folder_admin",
+    "moderator": "folder_admin",
+    "dump": "folder_dump",
+    "dumps": "folder_dump",
+    "target": "folder_target",
     "wakatime": "folder_wakatime",
     "terraform": "folder_terraform",
     ".terraform": "folder_terraform",
@@ -813,30 +1601,216 @@
     "__stories__": "folder_storybook",
     "stylus": "folder_stylus",
     "sublime": "folder_sublime",
-    "components": "folder_react_component",
-    "component": "folder_react_component",
     "react": "folder_react_component",
     "jsx": "folder_react_component",
     "reactjs": "folder_react_component",
+    "stack": "folder_stack",
+    "stacks": "folder_stack",
+    "message": "folder_message",
+    "messages": "folder_message",
+    "messaging": "folder_message",
+    "forum": "folder_message",
+    "chat": "folder_message",
+    "chats": "folder_message",
+    "conversation": "folder_message",
+    "conversations": "folder_message",
+    "rule": "folder_rule",
+    "rules": "folder_rule",
+    "validation": "folder_rule",
+    "validations": "folder_rule",
+    "validator": "folder_rule",
+    "validators": "folder_rule",
+    "components": "folder_component",
+    "widget": "folder_component",
+    "widgets": "folder_component",
+    "fragments": "folder_component",
+    "fragment": "folder_component",
+    "component": "folder_component",
     ".stencil": "folder_stencil",
     "scala": "folder_scala",
     "resolver": "folder_resolver",
     "resolvers": "folder_resolver",
     "plastic": "folder_plastic",
     ".plastic": "folder_plastic",
+    "vm": "folder_vm",
+    "vms": "folder_vm",
+    ".ci": "folder_ci",
+    "ci": "folder_ci",
+    "core": "folder_core",
+    "review": "folder_review",
+    "reviews": "folder_review",
+    "revisal": "folder_review",
+    "revisals": "folder_review",
+    "reviewed": "folder_review",
+    "func": "folder_function",
+    "funcs": "folder_function",
+    "function": "folder_function",
+    "functions": "folder_function",
+    "lambda": "folder_function",
+    "lambdas": "folder_function",
+    "logic": "folder_function",
+    "math": "folder_function",
+    "maths": "folder_function",
+    "calc": "folder_function",
+    "calcs": "folder_function",
+    "calculation": "folder_function",
+    "calculations": "folder_function",
+    "project": "folder_project",
+    "projects": "folder_project",
+    ".project": "folder_project",
+    ".projects": "folder_project",
+    "job": "folder_job",
+    "jobs": "folder_job",
+    "container": "folder_container",
+    "containers": "folder_container",
+    ".devcontainer": "folder_container",
+    "package": "folder_package",
+    "packages": "folder_package",
+    "pkg": "folder_package",
+    "pkgs": "folder_package",
+    "interface": "folder_interface",
+    "interfaces": "folder_interface",
+    ".changesets": "folder_changeset",
+    ".changeset": "folder_changeset",
+    "pact": "folder_contract",
+    "pacts": "folder_contract",
+    "contract": "folder_contract",
+    ".contract": "folder_contract",
+    "contracts": "folder_contract",
+    "contract_testing": "folder_contract",
+    "contract_test": "folder_contract",
+    "contract_tests": "folder_contract",
+    "resource": "folder_resource",
+    "resources": "folder_resource",
+    "res": "folder_resource",
+    "asset": "folder_resource",
+    "assets": "folder_resource",
+    "static": "folder_resource",
+    "report": "folder_resource",
+    "reports": "folder_resource",
+    "controller": "folder_controller",
+    "controllers": "folder_controller",
+    "service": "folder_controller",
+    "services": "folder_controller",
+    "provider": "folder_controller",
+    "providers": "folder_controller",
+    "handler": "folder_controller",
+    "handlers": "folder_controller",
+    "plugin": "folder_plugin",
+    "plugins": "folder_plugin",
+    "_plugins": "folder_plugin",
+    "extension": "folder_plugin",
+    "extensions": "folder_plugin",
+    "addon": "folder_plugin",
+    "addons": "folder_plugin",
+    "module": "folder_plugin",
+    "modules": "folder_plugin",
+    "app": "folder_app",
+    "apps": "folder_app",
+    "error": "folder_error",
+    "errors": "folder_error",
+    "err": "folder_error",
+    "mail": "folder_mail",
+    "mails": "folder_mail",
+    "email": "folder_mail",
+    "emails": "folder_mail",
+    "smtp": "folder_mail",
+    "mailers": "folder_mail",
+    "class": "folder_class",
+    "classes": "folder_class",
+    "model": "folder_class",
+    "models": "folder_class",
+    "schemas": "folder_class",
+    "schema": "folder_class",
+    "anim": "folder_animation",
+    "anims": "folder_animation",
+    "animation": "folder_animation",
+    "animations": "folder_animation",
+    "animated": "folder_animation",
     "python": "folder_python",
     "__pycache__": "folder_python",
     ".pytest_cache": "folder_python",
+    ".serverless": "folder_serverless",
+    "serverless": "folder_serverless",
+    "home": "folder_home",
+    ".home": "folder_home",
+    "start": "folder_home",
+    ".start": "folder_home",
     "protobufs": "folder_proto",
     "proto": "folder_proto",
-    "uploads": "folder_upload",
-    "upload": "folder_upload",
-    "downloads": "folder_download",
-    "download": "folder_download",
     ".next": "folder_next",
     "nuxt": "folder_nuxt",
     ".nuxt": "folder_nuxt",
     "php": "folder_php",
+    "effects": "folder_effect",
+    "effect": "folder_effect",
+    "client": "folder_client",
+    "clients": "folder_client",
+    "frontend": "folder_client",
+    "pwa": "folder_client",
+    "include": "folder_include",
+    "includes": "folder_include",
+    "_includes": "folder_include",
+    "inc": "folder_include",
+    "partials": "folder_include",
+    "_partials": "folder_include",
+    "temp": "folder_temp",
+    ".temp": "folder_temp",
+    "tmp": "folder_temp",
+    ".tmp": "folder_temp",
+    "cached": "folder_temp",
+    "cache": "folder_temp",
+    ".cache": "folder_temp",
+    "keys": "folder_key",
+    "key": "folder_key",
+    "token": "folder_key",
+    "tokens": "folder_key",
+    "jwt": "folder_key",
+    "queue": "folder_queue",
+    "queues": "folder_queue",
+    "bull": "folder_queue",
+    "mq": "folder_queue",
+    "cfg": "folder_config",
+    "cfgs": "folder_config",
+    "conf": "folder_config",
+    "confs": "folder_config",
+    "config": "folder_config",
+    "configs": "folder_config",
+    "configuration": "folder_config",
+    "configurations": "folder_config",
+    "setting": "folder_config",
+    ".setting": "folder_config",
+    "settings": "folder_config",
+    ".settings": "folder_config",
+    "META_INF": "folder_config",
+    "layout": "folder_layout",
+    "layouts": "folder_layout",
+    "_layouts": "folder_layout",
+    "tools": "folder_tool",
+    "tool": "folder_tool",
+    "toolkit": "folder_tool",
+    "toolkits": "folder_tool",
+    "toolbox": "folder_tool",
+    "toolboxes": "folder_tool",
+    "content": "folder_content",
+    "contents": "folder_content",
+    "connection": "folder_connection",
+    "connections": "folder_connection",
+    "integration": "folder_connection",
+    "integrations": "folder_connection",
+    "command": "folder_command",
+    "commands": "folder_command",
+    "cmd": "folder_command",
+    "cli": "folder_command",
+    "clis": "folder_command",
+    "log": "folder_log",
+    "logs": "folder_log",
+    "debug": "folder_debug",
+    "debugging": "folder_debug",
+    "mappings": "folder_mapping",
+    "mapping": "folder_mapping",
+    "event": "folder_event",
+    "events": "folder_event",
     "themes": "folder_theme",
     "theme": "folder_theme",
     "color": "folder_theme",
@@ -937,6 +1911,15 @@
     "docker": "folder_docker_expanded",
     "dockerfiles": "folder_docker_expanded",
     ".docker": "folder_docker_expanded",
+    "actions": "folder_action_expanded",
+    "action": "folder_action_expanded",
+    "glsl": "folder_shader_expanded",
+    "hlsl": "folder_shader_expanded",
+    "shader": "folder_shader_expanded",
+    "shaders": "folder_shader_expanded",
+    "tasks": "folder_task_expanded",
+    "tickets": "folder_task_expanded",
+    "task": "folder_task_expanded",
     "sass": "folder_sass_expanded",
     "_sass": "folder_sass_expanded",
     "scss": "folder_sass_expanded",
@@ -951,6 +1934,55 @@
     "svgs": "folder_svg_expanded",
     "node_modules": "folder_node_expanded",
     "prisma": "folder_prisma_expanded",
+    "pipe": "folder_pipe_expanded",
+    "pipes": "folder_pipe_expanded",
+    "cluster": "folder_cluster_expanded",
+    "clusters": "folder_cluster_expanded",
+    "guard": "folder_guard_expanded",
+    "guards": "folder_guard_expanded",
+    "routes": "folder_route_expanded",
+    "router": "folder_route_expanded",
+    "routers": "folder_route_expanded",
+    "route": "folder_route_expanded",
+    "downloads": "folder_download_expanded",
+    "download": "folder_download_expanded",
+    "meta": "folder_meta_expanded",
+    "generator": "folder_generated_expanded",
+    "generators": "folder_generated_expanded",
+    "generated": "folder_generated_expanded",
+    "cfn_gen": "folder_generated_expanded",
+    "gen": "folder_generated_expanded",
+    "gens": "folder_generated_expanded",
+    "auto": "folder_generated_expanded",
+    "util": "folder_util_expanded",
+    "utils": "folder_util_expanded",
+    "utility": "folder_util_expanded",
+    "utilities": "folder_util_expanded",
+    ".env": "folder_environment_expanded",
+    ".environment": "folder_environment_expanded",
+    "env": "folder_environment_expanded",
+    "envs": "folder_environment_expanded",
+    "environment": "folder_environment_expanded",
+    "environments": "folder_environment_expanded",
+    ".venv": "folder_environment_expanded",
+    "update": "folder_update_expanded",
+    "updates": "folder_update_expanded",
+    "upgrade": "folder_update_expanded",
+    "upgrades": "folder_update_expanded",
+    "cart": "folder_cart_expanded",
+    "shopping_cart": "folder_cart_expanded",
+    "shopping": "folder_cart_expanded",
+    "shop": "folder_cart_expanded",
+    "context": "folder_context_expanded",
+    "contexts": "folder_context_expanded",
+    "coverage": "folder_coverage_expanded",
+    ".nyc_output": "folder_coverage_expanded",
+    "e2e": "folder_coverage_expanded",
+    "it": "folder_coverage_expanded",
+    "integration_test": "folder_coverage_expanded",
+    "integration_tests": "folder_coverage_expanded",
+    "__integration_test__": "folder_coverage_expanded",
+    "__integration_tests__": "folder_coverage_expanded",
     "test": "folder_test_expanded",
     "tests": "folder_test_expanded",
     "testing": "folder_test_expanded",
@@ -961,6 +1993,36 @@
     "__test__": "folder_test_expanded",
     "spec": "folder_test_expanded",
     "specs": "folder_test_expanded",
+    "import": "folder_import_expanded",
+    "imports": "folder_import_expanded",
+    "imported": "folder_import_expanded",
+    "db": "folder_database_expanded",
+    "database": "folder_database_expanded",
+    "databases": "folder_database_expanded",
+    "sql": "folder_database_expanded",
+    "data": "folder_database_expanded",
+    "_data": "folder_database_expanded",
+    "auth": "folder_secure_expanded",
+    "authentication": "folder_secure_expanded",
+    "secure": "folder_secure_expanded",
+    "security": "folder_secure_expanded",
+    "cert": "folder_secure_expanded",
+    "certs": "folder_secure_expanded",
+    "certificate": "folder_secure_expanded",
+    "certificates": "folder_secure_expanded",
+    "ssl": "folder_secure_expanded",
+    "_draft": "folder_mock_expanded",
+    "_drafts": "folder_mock_expanded",
+    "mock": "folder_mock_expanded",
+    "mocks": "folder_mock_expanded",
+    "fixture": "folder_mock_expanded",
+    "fixtures": "folder_mock_expanded",
+    "draft": "folder_mock_expanded",
+    "drafts": "folder_mock_expanded",
+    "concept": "folder_mock_expanded",
+    "concepts": "folder_mock_expanded",
+    "sketch": "folder_mock_expanded",
+    "sketches": "folder_mock_expanded",
     "_post": "folder_docs_expanded",
     "_posts": "folder_docs_expanded",
     "doc": "folder_docs_expanded",
@@ -996,6 +2058,77 @@
     "jsons": "folder_json_expanded",
     "mjml": "folder_mjml_expanded",
     "less": "folder_less_expanded",
+    "global": "folder_global_expanded",
+    "globals": "folder_global_expanded",
+    "shared": "folder_shared_expanded",
+    "common": "folder_shared_expanded",
+    "middleware": "folder_middleware_expanded",
+    "middlewares": "folder_middleware_expanded",
+    "base": "folder_base_expanded",
+    ".base": "folder_base_expanded",
+    "bases": "folder_base_expanded",
+    "template": "folder_template_expanded",
+    "templates": "folder_template_expanded",
+    "helpers": "folder_helper_expanded",
+    "helper": "folder_helper_expanded",
+    "export": "folder_export_expanded",
+    "exports": "folder_export_expanded",
+    "exported": "folder_export_expanded",
+    "custom": "folder_custom_expanded",
+    "customs": "folder_custom_expanded",
+    "uploads": "folder_upload_expanded",
+    "upload": "folder_upload_expanded",
+    "mobile": "folder_mobile_expanded",
+    "mobiles": "folder_mobile_expanded",
+    "portable": "folder_mobile_expanded",
+    "portability": "folder_mobile_expanded",
+    "view": "folder_view_expanded",
+    "views": "folder_view_expanded",
+    "screen": "folder_view_expanded",
+    "screens": "folder_view_expanded",
+    "page": "folder_view_expanded",
+    "pages": "folder_view_expanded",
+    "html": "folder_view_expanded",
+    "other": "folder_other_expanded",
+    "others": "folder_other_expanded",
+    "misc": "folder_other_expanded",
+    "miscellaneous": "folder_other_expanded",
+    "extra": "folder_other_expanded",
+    "extras": "folder_other_expanded",
+    "etc": "folder_other_expanded",
+    "arc": "folder_archive_expanded",
+    "arcs": "folder_archive_expanded",
+    "archive": "folder_archive_expanded",
+    "archives": "folder_archive_expanded",
+    "archival": "folder_archive_expanded",
+    "bkp": "folder_archive_expanded",
+    "bkps": "folder_archive_expanded",
+    "bak": "folder_archive_expanded",
+    "baks": "folder_archive_expanded",
+    "backup": "folder_archive_expanded",
+    "backups": "folder_archive_expanded",
+    "back_up": "folder_archive_expanded",
+    "back_ups": "folder_archive_expanded",
+    "decorator": "folder_decorator_expanded",
+    "decorators": "folder_decorator_expanded",
+    "i18n": "folder_language_expanded",
+    "internationalization": "folder_language_expanded",
+    "lang": "folder_language_expanded",
+    "langs": "folder_language_expanded",
+    "language": "folder_language_expanded",
+    "languages": "folder_language_expanded",
+    "locale": "folder_language_expanded",
+    "locales": "folder_language_expanded",
+    "l10n": "folder_language_expanded",
+    "localization": "folder_language_expanded",
+    "translation": "folder_language_expanded",
+    "translate": "folder_language_expanded",
+    "translations": "folder_language_expanded",
+    ".tx": "folder_language_expanded",
+    "hook": "folder_hook_expanded",
+    "hooks": "folder_hook_expanded",
+    "trigger": "folder_hook_expanded",
+    "triggers": "folder_hook_expanded",
     ".hg": "folder_mercurial_expanded",
     "hghooks": "folder_mercurial_expanded",
     ".hghooks": "folder_mercurial_expanded",
@@ -1042,6 +2175,9 @@
     ".angular": "folder_angular_expanded",
     "ansible": "folder_ansible_expanded",
     "android": "folder_android_expanded",
+    "server": "folder_server_expanded",
+    "servers": "folder_server_expanded",
+    "backend": "folder_server_expanded",
     "vid": "folder_video_expanded",
     "vids": "folder_video_expanded",
     "video": "folder_video_expanded",
@@ -1054,6 +2190,47 @@
     ".verdaccio": "folder_verdaccio_expanded",
     "verdaccio": "folder_verdaccio_expanded",
     "vue": "folder_vue_expanded",
+    "gamemaker": "folder_gamemaker_expanded",
+    "gamemaker2": "folder_gamemaker_expanded",
+    "store": "folder_store_expanded",
+    "stores": "folder_store_expanded",
+    "selectors": "folder_selector_expanded",
+    "selector": "folder_selector_expanded",
+    "private": "folder_private_expanded",
+    ".private": "folder_private_expanded",
+    "syntax": "folder_syntax_expanded",
+    "syntaxes": "folder_syntax_expanded",
+    "spellcheck": "folder_syntax_expanded",
+    "reducers": "folder_reducer_expanded",
+    "reducer": "folder_reducer_expanded",
+    "states": "folder_state_expanded",
+    "state": "folder_state_expanded",
+    "entities": "folder_entity_expanded",
+    "entity": "folder_entity_expanded",
+    "benchmark": "folder_benchmark_expanded",
+    "benchmarks": "folder_benchmark_expanded",
+    "performance": "folder_benchmark_expanded",
+    "measure": "folder_benchmark_expanded",
+    "measures": "folder_benchmark_expanded",
+    "measurement": "folder_benchmark_expanded",
+    "lib": "folder_lib_expanded",
+    "libs": "folder_lib_expanded",
+    "library": "folder_lib_expanded",
+    "libraries": "folder_lib_expanded",
+    "vendor": "folder_lib_expanded",
+    "vendors": "folder_lib_expanded",
+    "third_party": "folder_lib_expanded",
+    "api": "folder_api_expanded",
+    "apis": "folder_api_expanded",
+    "restapi": "folder_api_expanded",
+    "constant": "folder_constant_expanded",
+    "constants": "folder_constant_expanded",
+    "admin": "folder_admin_expanded",
+    "manager": "folder_admin_expanded",
+    "moderator": "folder_admin_expanded",
+    "dump": "folder_dump_expanded",
+    "dumps": "folder_dump_expanded",
+    "target": "folder_target_expanded",
     "wakatime": "folder_wakatime_expanded",
     "terraform": "folder_terraform_expanded",
     ".terraform": "folder_terraform_expanded",
@@ -1069,30 +2246,216 @@
     "__stories__": "folder_storybook_expanded",
     "stylus": "folder_stylus_expanded",
     "sublime": "folder_sublime_expanded",
-    "components": "folder_react_component_expanded",
-    "component": "folder_react_component_expanded",
     "react": "folder_react_component_expanded",
     "jsx": "folder_react_component_expanded",
     "reactjs": "folder_react_component_expanded",
+    "stack": "folder_stack_expanded",
+    "stacks": "folder_stack_expanded",
+    "message": "folder_message_expanded",
+    "messages": "folder_message_expanded",
+    "messaging": "folder_message_expanded",
+    "forum": "folder_message_expanded",
+    "chat": "folder_message_expanded",
+    "chats": "folder_message_expanded",
+    "conversation": "folder_message_expanded",
+    "conversations": "folder_message_expanded",
+    "rule": "folder_rule_expanded",
+    "rules": "folder_rule_expanded",
+    "validation": "folder_rule_expanded",
+    "validations": "folder_rule_expanded",
+    "validator": "folder_rule_expanded",
+    "validators": "folder_rule_expanded",
+    "components": "folder_component_expanded",
+    "widget": "folder_component_expanded",
+    "widgets": "folder_component_expanded",
+    "fragments": "folder_component_expanded",
+    "fragment": "folder_component_expanded",
+    "component": "folder_component_expanded",
     ".stencil": "folder_stencil_expanded",
     "scala": "folder_scala_expanded",
     "resolver": "folder_resolver_expanded",
     "resolvers": "folder_resolver_expanded",
     "plastic": "folder_plastic_expanded",
     ".plastic": "folder_plastic_expanded",
+    "vm": "folder_vm_expanded",
+    "vms": "folder_vm_expanded",
+    ".ci": "folder_ci_expanded",
+    "ci": "folder_ci_expanded",
+    "core": "folder_core_expanded",
+    "review": "folder_review_expanded",
+    "reviews": "folder_review_expanded",
+    "revisal": "folder_review_expanded",
+    "revisals": "folder_review_expanded",
+    "reviewed": "folder_review_expanded",
+    "func": "folder_function_expanded",
+    "funcs": "folder_function_expanded",
+    "function": "folder_function_expanded",
+    "functions": "folder_function_expanded",
+    "lambda": "folder_function_expanded",
+    "lambdas": "folder_function_expanded",
+    "logic": "folder_function_expanded",
+    "math": "folder_function_expanded",
+    "maths": "folder_function_expanded",
+    "calc": "folder_function_expanded",
+    "calcs": "folder_function_expanded",
+    "calculation": "folder_function_expanded",
+    "calculations": "folder_function_expanded",
+    "project": "folder_project_expanded",
+    "projects": "folder_project_expanded",
+    ".project": "folder_project_expanded",
+    ".projects": "folder_project_expanded",
+    "job": "folder_job_expanded",
+    "jobs": "folder_job_expanded",
+    "container": "folder_container_expanded",
+    "containers": "folder_container_expanded",
+    ".devcontainer": "folder_container_expanded",
+    "package": "folder_package_expanded",
+    "packages": "folder_package_expanded",
+    "pkg": "folder_package_expanded",
+    "pkgs": "folder_package_expanded",
+    "interface": "folder_interface_expanded",
+    "interfaces": "folder_interface_expanded",
+    ".changesets": "folder_changeset_expanded",
+    ".changeset": "folder_changeset_expanded",
+    "pact": "folder_contract_expanded",
+    "pacts": "folder_contract_expanded",
+    "contract": "folder_contract_expanded",
+    ".contract": "folder_contract_expanded",
+    "contracts": "folder_contract_expanded",
+    "contract_testing": "folder_contract_expanded",
+    "contract_test": "folder_contract_expanded",
+    "contract_tests": "folder_contract_expanded",
+    "resource": "folder_resource_expanded",
+    "resources": "folder_resource_expanded",
+    "res": "folder_resource_expanded",
+    "asset": "folder_resource_expanded",
+    "assets": "folder_resource_expanded",
+    "static": "folder_resource_expanded",
+    "report": "folder_resource_expanded",
+    "reports": "folder_resource_expanded",
+    "controller": "folder_controller_expanded",
+    "controllers": "folder_controller_expanded",
+    "service": "folder_controller_expanded",
+    "services": "folder_controller_expanded",
+    "provider": "folder_controller_expanded",
+    "providers": "folder_controller_expanded",
+    "handler": "folder_controller_expanded",
+    "handlers": "folder_controller_expanded",
+    "plugin": "folder_plugin_expanded",
+    "plugins": "folder_plugin_expanded",
+    "_plugins": "folder_plugin_expanded",
+    "extension": "folder_plugin_expanded",
+    "extensions": "folder_plugin_expanded",
+    "addon": "folder_plugin_expanded",
+    "addons": "folder_plugin_expanded",
+    "module": "folder_plugin_expanded",
+    "modules": "folder_plugin_expanded",
+    "app": "folder_app_expanded",
+    "apps": "folder_app_expanded",
+    "error": "folder_error_expanded",
+    "errors": "folder_error_expanded",
+    "err": "folder_error_expanded",
+    "mail": "folder_mail_expanded",
+    "mails": "folder_mail_expanded",
+    "email": "folder_mail_expanded",
+    "emails": "folder_mail_expanded",
+    "smtp": "folder_mail_expanded",
+    "mailers": "folder_mail_expanded",
+    "class": "folder_class_expanded",
+    "classes": "folder_class_expanded",
+    "model": "folder_class_expanded",
+    "models": "folder_class_expanded",
+    "schemas": "folder_class_expanded",
+    "schema": "folder_class_expanded",
+    "anim": "folder_animation_expanded",
+    "anims": "folder_animation_expanded",
+    "animation": "folder_animation_expanded",
+    "animations": "folder_animation_expanded",
+    "animated": "folder_animation_expanded",
     "python": "folder_python_expanded",
     "__pycache__": "folder_python_expanded",
     ".pytest_cache": "folder_python_expanded",
+    ".serverless": "folder_serverless_expanded",
+    "serverless": "folder_serverless_expanded",
+    "home": "folder_home_expanded",
+    ".home": "folder_home_expanded",
+    "start": "folder_home_expanded",
+    ".start": "folder_home_expanded",
     "protobufs": "folder_proto_expanded",
     "proto": "folder_proto_expanded",
-    "uploads": "folder_upload_expanded",
-    "upload": "folder_upload_expanded",
-    "downloads": "folder_download_expanded",
-    "download": "folder_download_expanded",
     ".next": "folder_next_expanded",
     "nuxt": "folder_nuxt_expanded",
     ".nuxt": "folder_nuxt_expanded",
     "php": "folder_php_expanded",
+    "effects": "folder_effect_expanded",
+    "effect": "folder_effect_expanded",
+    "client": "folder_client_expanded",
+    "clients": "folder_client_expanded",
+    "frontend": "folder_client_expanded",
+    "pwa": "folder_client_expanded",
+    "include": "folder_include_expanded",
+    "includes": "folder_include_expanded",
+    "_includes": "folder_include_expanded",
+    "inc": "folder_include_expanded",
+    "partials": "folder_include_expanded",
+    "_partials": "folder_include_expanded",
+    "temp": "folder_temp_expanded",
+    ".temp": "folder_temp_expanded",
+    "tmp": "folder_temp_expanded",
+    ".tmp": "folder_temp_expanded",
+    "cached": "folder_temp_expanded",
+    "cache": "folder_temp_expanded",
+    ".cache": "folder_temp_expanded",
+    "keys": "folder_key_expanded",
+    "key": "folder_key_expanded",
+    "token": "folder_key_expanded",
+    "tokens": "folder_key_expanded",
+    "jwt": "folder_key_expanded",
+    "queue": "folder_queue_expanded",
+    "queues": "folder_queue_expanded",
+    "bull": "folder_queue_expanded",
+    "mq": "folder_queue_expanded",
+    "cfg": "folder_config_expanded",
+    "cfgs": "folder_config_expanded",
+    "conf": "folder_config_expanded",
+    "confs": "folder_config_expanded",
+    "config": "folder_config_expanded",
+    "configs": "folder_config_expanded",
+    "configuration": "folder_config_expanded",
+    "configurations": "folder_config_expanded",
+    "setting": "folder_config_expanded",
+    ".setting": "folder_config_expanded",
+    "settings": "folder_config_expanded",
+    ".settings": "folder_config_expanded",
+    "META_INF": "folder_config_expanded",
+    "layout": "folder_layout_expanded",
+    "layouts": "folder_layout_expanded",
+    "_layouts": "folder_layout_expanded",
+    "tools": "folder_tool_expanded",
+    "tool": "folder_tool_expanded",
+    "toolkit": "folder_tool_expanded",
+    "toolkits": "folder_tool_expanded",
+    "toolbox": "folder_tool_expanded",
+    "toolboxes": "folder_tool_expanded",
+    "content": "folder_content_expanded",
+    "contents": "folder_content_expanded",
+    "connection": "folder_connection_expanded",
+    "connections": "folder_connection_expanded",
+    "integration": "folder_connection_expanded",
+    "integrations": "folder_connection_expanded",
+    "command": "folder_command_expanded",
+    "commands": "folder_command_expanded",
+    "cmd": "folder_command_expanded",
+    "cli": "folder_command_expanded",
+    "clis": "folder_command_expanded",
+    "log": "folder_log_expanded",
+    "logs": "folder_log_expanded",
+    "debug": "folder_debug_expanded",
+    "debugging": "folder_debug_expanded",
+    "mappings": "folder_mapping_expanded",
+    "mapping": "folder_mapping_expanded",
+    "event": "folder_event_expanded",
+    "events": "folder_event_expanded",
     "themes": "folder_theme_expanded",
     "theme": "folder_theme_expanded",
     "color": "folder_theme_expanded",

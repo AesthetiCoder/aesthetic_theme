@@ -1,7 +1,7 @@
 import {
   background, base, cyan, danger, gray, information, purple, success, warning
 } from '../theme/colors';
-import { alpha } from '../utils/alpha';
+import { alpha } from '../util/alpha';
 
 const terminal = {
   'panel.background': background.background_900,
