@@ -1,8 +1,5 @@
 {
   "iconDefinitions": {
-    "folder-1": {
-      "iconPath": "./../src/asset/icon/folder-1.svg"
-    },
     "folder": {
       "iconPath": "./../src/asset/icon/folder.svg"
     },
@@ -17,9 +14,6 @@
     },
     "folder_admin_expanded": {
       "iconPath": "./../src/asset/icon/folder_admin_expanded.svg"
-    },
-    "folder_admn": {
-      "iconPath": "./../src/asset/icon/folder_admn.svg"
     },
     "folder_android": {
       "iconPath": "./../src/asset/icon/folder_android.svg"
@@ -120,17 +114,8 @@
     "folder_changeset": {
       "iconPath": "./../src/asset/icon/folder_changeset.svg"
     },
-    "folder_changeset_expanded-1": {
-      "iconPath": "./../src/asset/icon/folder_changeset_expanded-1.svg"
-    },
     "folder_changeset_expanded": {
       "iconPath": "./../src/asset/icon/folder_changeset_expanded.svg"
-    },
-    "folder_chengeset-1": {
-      "iconPath": "./../src/asset/icon/folder_chengeset-1.svg"
-    },
-    "folder_chengeset": {
-      "iconPath": "./../src/asset/icon/folder_chengeset.svg"
     },
     "folder_ci": {
       "iconPath": "./../src/asset/icon/folder_ci.svg"
@@ -317,12 +302,6 @@
     },
     "folder_effect_expanded": {
       "iconPath": "./../src/asset/icon/folder_effect_expanded.svg"
-    },
-    "folder_entitie": {
-      "iconPath": "./../src/asset/icon/folder_entitie.svg"
-    },
-    "folder_entitie_expanded": {
-      "iconPath": "./../src/asset/icon/folder_entitie_expanded.svg"
     },
     "folder_entity": {
       "iconPath": "./../src/asset/icon/folder_entity.svg"
@@ -684,48 +663,6 @@
     "folder_next_expanded": {
       "iconPath": "./../src/asset/icon/folder_next_expanded.svg"
     },
-    "folder_ngrx_action": {
-      "iconPath": "./../src/asset/icon/folder_ngrx_action.svg"
-    },
-    "folder_ngrx_action_expanded": {
-      "iconPath": "./../src/asset/icon/folder_ngrx_action_expanded.svg"
-    },
-    "folder_ngrx_effect": {
-      "iconPath": "./../src/asset/icon/folder_ngrx_effect.svg"
-    },
-    "folder_ngrx_effect_expanded": {
-      "iconPath": "./../src/asset/icon/folder_ngrx_effect_expanded.svg"
-    },
-    "folder_ngrx_entitie": {
-      "iconPath": "./../src/asset/icon/folder_ngrx_entitie.svg"
-    },
-    "folder_ngrx_entitie_expanded": {
-      "iconPath": "./../src/asset/icon/folder_ngrx_entitie_expanded.svg"
-    },
-    "folder_ngrx_reducer": {
-      "iconPath": "./../src/asset/icon/folder_ngrx_reducer.svg"
-    },
-    "folder_ngrx_reducer_expanded": {
-      "iconPath": "./../src/asset/icon/folder_ngrx_reducer_expanded.svg"
-    },
-    "folder_ngrx_selector": {
-      "iconPath": "./../src/asset/icon/folder_ngrx_selector.svg"
-    },
-    "folder_ngrx_selector_expanded": {
-      "iconPath": "./../src/asset/icon/folder_ngrx_selector_expanded.svg"
-    },
-    "folder_ngrx_state": {
-      "iconPath": "./../src/asset/icon/folder_ngrx_state.svg"
-    },
-    "folder_ngrx_state_expanded": {
-      "iconPath": "./../src/asset/icon/folder_ngrx_state_expanded.svg"
-    },
-    "folder_ngrx_store": {
-      "iconPath": "./../src/asset/icon/folder_ngrx_store.svg"
-    },
-    "folder_ngrx_store_expanded": {
-      "iconPath": "./../src/asset/icon/folder_ngrx_store_expanded.svg"
-    },
     "folder_node": {
       "iconPath": "./../src/asset/icon/folder_node.svg"
     },
@@ -839,30 +776,6 @@
     },
     "folder_reducer_expanded": {
       "iconPath": "./../src/asset/icon/folder_reducer_expanded.svg"
-    },
-    "folder_redux_action": {
-      "iconPath": "./../src/asset/icon/folder_redux_action.svg"
-    },
-    "folder_redux_action_expanded": {
-      "iconPath": "./../src/asset/icon/folder_redux_action_expanded.svg"
-    },
-    "folder_redux_reducer": {
-      "iconPath": "./../src/asset/icon/folder_redux_reducer.svg"
-    },
-    "folder_redux_reducer_expanded": {
-      "iconPath": "./../src/asset/icon/folder_redux_reducer_expanded.svg"
-    },
-    "folder_redux_selector": {
-      "iconPath": "./../src/asset/icon/folder_redux_selector.svg"
-    },
-    "folder_redux_selector_expanded": {
-      "iconPath": "./../src/asset/icon/folder_redux_selector_expanded.svg"
-    },
-    "folder_redux_store": {
-      "iconPath": "./../src/asset/icon/folder_redux_store.svg"
-    },
-    "folder_redux_store_expanded": {
-      "iconPath": "./../src/asset/icon/folder_redux_store_expanded.svg"
     },
     "folder_resolver": {
       "iconPath": "./../src/asset/icon/folder_resolver.svg"
@@ -1164,17 +1077,20 @@
     "file": {
       "iconPath": "./../src/asset/icon/file.svg"
     },
+    "husky": {
+      "iconPath": "./../src/asset/icon/husky.svg"
+    },
+    "nodemon": {
+      "iconPath": "./../src/asset/icon/nodemon.svg"
+    },
+    "pnpm": {
+      "iconPath": "./../src/asset/icon/pnpm.svg"
+    },
     "typescript": {
       "iconPath": "./../src/asset/icon/typescript.svg"
     },
     "Vector-1": {
       "iconPath": "./../src/asset/icon/Vector-1.svg"
-    },
-    "Vector-2": {
-      "iconPath": "./../src/asset/icon/Vector-2.png"
-    },
-    "Vector-3": {
-      "iconPath": "./../src/asset/icon/Vector-3.png"
     },
     "Vector": {
       "iconPath": "./../src/asset/icon/Vector.svg"
@@ -1190,7 +1106,18 @@
     "astro.config.cjs": "astro",
     "astro.config.ts": "astro",
     "astro.config.cts": "astro",
-    "astro.config.mts": "astro"
+    "astro.config.mts": "astro",
+    "pnpm-lock.yaml": "pnpm",
+    "pnpm-workspace.yaml": "pnpm",
+    ".pnpmfile.cjs": "pnpm",
+    "nodemon.json": "nodemon",
+    "nodemon-debug.json": "nodemon",
+    ".huskyrc": "husky",
+    "husky.config.js": "husky",
+    ".huskyrc.json": "husky",
+    ".huskyrc.js": "husky",
+    ".huskyrc.yaml": "husky",
+    ".huskyrc.yml": "husky"
   },
   "languageIds": {
     "ts": "typescript"
