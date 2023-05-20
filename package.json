@@ -1,20 +1,37 @@
 {
-  "name": "luis-theme",
-  "displayName": "Luis's Theme",
+  "name": "aesthetic-theme",
+  "displayName": "Aesthetic's Theme",
   "description": "My personal color schema themes for vscode",
   "version": "0.0.1",
+  "private": true,
+  "license": "MIT",
+  "author": "Luis Monsalve",
   "categories": [
     "Themes"
   ],
-  "homepage": "https://github.com/LuisCoderDev/luis_theme",
-  "bugs": "https://github.com/LuisCoderDev/luis_theme/issues",
+  "keywords": [
+    "icons",
+    "vscode",
+    "vscode-extension",
+    "theme",
+    "visual-studio-code",
+    "vsc-theme",
+    "vsc-icon-theme",
+    "vscode-icons",
+    "typescript",
+    "svg",
+    "svg-icons",
+    "eslint"
+  ],
+  "homepage": "https://github.com/AesthetiCoder/aesthetic_theme",
+  "bugs": "https://github.com/AesthetiCoder/aesthetic_theme/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/LuisCoderDev/luis_theme"
+    "url": "https://github.com/AesthetiCoder/aesthetic_theme"
   },
   "engines": {
     "vscode": "^1.74.0",
-    "node": "^14.18.0 || >=16.0.0",
+    "node": "^18.16.0",
     "npm": "please-use-pnpm",
     "yarn": "please-use-pnpm",
     "pnpm": ">=7.14.0"
@@ -26,32 +43,32 @@
     "lint": "eslint --ext .ts . --fix",
     "dev": "nodemon",
     "build": "rimraf dist && tsc",
-    "package": "rimraf luis-theme-0.0.1.vsix && vsce package --no-dependencies"
+    "package": "rimraf aesthetic-theme-0.0.1.vsix && vsce package --no-dependencies"
   },
   "contributes": {
     "iconThemes": [
       {
-        "id": "dark",
-        "label": "Dark Icons",
-        "path": "./themes/dark-icon-theme.json"
+        "id": "icon",
+        "label": "Aesthetic icons",
+        "path": "./themes/aesthetic_icon_theme.json"
       }
     ],
     "themes": [
       {
-        "label": "Luis's Theme",
+        "label": "Aesthetic's Theme",
         "uiTheme": "vs-dark",
-        "path": "./themes/dark-theme.json"
+        "path": "./themes/aesthetic_dark_theme.json"
       }
     ]
   },
   "devDependencies": {
-    "@types/node": "^18.15.11",
-    "@vscode/vsce": "^2.18.0",
-    "eslint": "^8.37.0",
+    "@types/node": "^18.16.13",
+    "@vscode/vsce": "^2.19.0",
+    "eslint": "^8.41.0",
     "eslint-config-typescript-coder-dev": "^0.0.2",
-    "nodemon": "^2.0.20",
+    "nodemon": "^2.0.22",
     "rimraf": "^4.4.1",
     "ts-node": "^10.9.1",
-    "typescript": "^5.0.3"
+    "typescript": "^5.0.4"
   }
 }

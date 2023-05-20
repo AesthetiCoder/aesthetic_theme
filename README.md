@@ -1,4 +1,4 @@
-# luis-theme README
+# aesthetic-theme README
 
 ## Working with Markdown
 

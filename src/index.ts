@@ -12,8 +12,8 @@ const main = (): void =>
     fs.mkdirSync('./themes', { recursive: false });
   }
 
-  fs.writeFileSync('./themes/dark-theme.json', JSON.stringify(theme, null, space));
-  fs.writeFileSync('./themes/dark-icon-theme.json', JSON.stringify(themeIcons, null, space));
+  fs.writeFileSync('./themes/aesthetic_dark_theme.json', JSON.stringify(theme, null, space));
+  fs.writeFileSync('./themes/aesthetic_icon_theme.json', JSON.stringify(themeIcons, null, space));
 };
 
 main();
