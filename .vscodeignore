@@ -3,10 +3,10 @@ node_modules
 
 # Source
 .github/
-.husky/
+script/
 .vscode/
 src/
-dist/
+test/
 
 # Dev config files
 .nvmrc

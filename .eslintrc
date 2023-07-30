@@ -1,7 +1,13 @@
 {
   "root": true,
-  "extends": "typescript-coder-dev",
+  "extends": [
+    "aesthetic-coder",
+    "aesthetic-coder/typescript"
+  ],
   "rules": {
-    "@typescript-eslint/no-magic-numbers": "off"
+    "array-element-newline": [
+      "error",
+      "consistent"
+    ]
   }
 }
