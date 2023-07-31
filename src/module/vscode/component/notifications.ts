@@ -5,10 +5,10 @@ import {
 const notifications = {
   'notificationCenter.border': gray.gray_500,
   'notificationCenterHeader.background': background.background_900,
-  'notificationCenterHeader.foreground': gray.gray_300,
+  'notificationCenterHeader.foreground': gray.gray_400,
   'notifications.background': background.background_900,
   'notifications.border': gray.gray_500,
-  'notifications.foreground': gray.gray_300,
+  'notifications.foreground': gray.gray_400,
   'notificationsErrorIcon.foreground': danger.danger_600,
   'notificationsInfoIcon.foreground': information.information_600,
   'notificationsWarningIcon.foreground': warning.warning_600,

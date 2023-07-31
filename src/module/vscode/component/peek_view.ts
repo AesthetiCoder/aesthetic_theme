@@ -5,12 +5,12 @@ const peekView = {
   'peekViewEditor.background': background.background_900,
   'peekViewEditorGutter.background': background.background_900,
   'peekViewResult.background': background.background_900,
-  'peekViewResult.fileForeground': gray.gray_300,
-  'peekViewResult.lineForeground': gray.gray_300,
-  'peekViewResult.selectionForeground': gray.gray_300,
+  'peekViewResult.fileForeground': gray.gray_400,
+  'peekViewResult.lineForeground': gray.gray_400,
+  'peekViewResult.selectionForeground': gray.gray_400,
   'peekViewTitle.background': background.background_900,
-  'peekViewTitleDescription.foreground': gray.gray_300,
-  'peekViewTitleLabel.foreground': gray.gray_300
+  'peekViewTitleDescription.foreground': gray.gray_400,
+  'peekViewTitleLabel.foreground': gray.gray_400
 };
 
 export { peekView };

@@ -22,10 +22,10 @@ import { widget } from './widget';
 const global =
 {
   'badge.background': information.information_500,
-  'badge.foreground': gray.gray_300,
+  'badge.foreground': gray.gray_200,
   'breadcrumb.background': background.background_900,
-  'breadcrumb.focusForeground': gray.gray_300,
-  'breadcrumb.foreground': gray.gray_500,
+  'breadcrumb.focusForeground': gray.gray_400,
+  'breadcrumb.foreground': gray.gray_400,
   'diffEditor.border': gray.gray_500,
   'diffEditor.insertedTextBackground': alpha(warning.warning_600, 0.35),
   'diffEditor.insertedTextBorder': gray.gray_500,
@@ -33,7 +33,7 @@ const global =
   'diffEditor.removedTextBorder': gray.gray_500,
   'editor.background': background.background_900,
   'editor.foldBackground': alpha(information.information_600, 0.2),
-  'editor.foreground': gray.gray_300,
+  'editor.foreground': gray.gray_400,
   'editor.inactiveSelectionBackground': alpha(information.information_900, 0.45),
   'editor.selectionBackground': alpha(information.information_700, 0.55),
   'editor.selectionHighlightBackground': alpha(information.information_700, 0.35),
@@ -43,15 +43,15 @@ const global =
 
   'editorCodeLens.foreground': gray.gray_500,
 
-  'editorCursor.foreground': gray.gray_300,
+  'editorCursor.foreground': gray.gray_400,
   'editorError.foreground': danger.danger_600,
 
-  'editorGroup.border': gray.gray_300,
+  'editorGroup.border': gray.gray_400,
   'editorGroupHeader.border': base.transparent,
   'editorIndentGuide.background': gray.gray_900,
   'editorInfo.foreground': information.information_600,
 
-  'editorLineNumber.activeForeground': gray.gray_300,
+  'editorLineNumber.activeForeground': gray.gray_400,
   'editorLineNumber.foreground': gray.gray_600,
   'editorLink.activeForeground': information.information_400,
   'editorMarkerNavigation.background': background.background_900,
@@ -63,12 +63,12 @@ const global =
   'editorWarning.foreground': warning.warning_600,
   'editorWhitespace.foreground': gray.gray_900,
 
-  errorForeground: gray.gray_300,
+  errorForeground: gray.gray_400,
   focusBorder: base.transparent,
-  foreground: gray.gray_300,
+  foreground: gray.gray_400,
   'menu.background': background.background_900,
   'menu.border': gray.gray_500,
-  'menu.foreground': gray.gray_300,
+  'menu.foreground': gray.gray_400,
   'menu.selectionBackground': gray.gray_800,
   'menu.selectionForeground': gray.gray_300,
   'menu.separatorBackground': gray.gray_500,
@@ -78,7 +78,7 @@ const global =
   'progressBar.background': information.information_600,
 
   'titleBar.activeBackground': background.background_900,
-  'titleBar.activeForeground': gray.gray_300,
+  'titleBar.activeForeground': gray.gray_400,
   'titleBar.inactiveBackground': background.background_900,
   'titleBar.inactiveForeground': gray.gray_500,
   'widget.shadow': base.black,

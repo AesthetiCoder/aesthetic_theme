@@ -7,10 +7,11 @@ const list = {
   'list.activeSelectionForeground': gray.gray_300,
   'list.dropBackground': base.black,
   'list.focusAndSelectionOutline': base.transparent,
+  'list.focusForeground': gray.gray_300,
   'list.hoverBackground': background.background_700,
   'list.hoverForeground': gray.gray_300,
   'list.inactiveSelectionBackground': background.background_700,
-  'list.inactiveSelectionForeground': gray.gray_300,
+  'list.inactiveSelectionForeground': gray.gray_400,
 
   'listFilterWidget.noMatchesOutline': danger.danger_600,
   'listFilterWidget.outline': gray.gray_900,

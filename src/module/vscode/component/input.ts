@@ -4,7 +4,7 @@ import {
 
 const input = {
   'input.background': base.black,
-  'input.foreground': gray.gray_300,
+  'input.foreground': gray.gray_400,
   'input.placeholderForeground': gray.gray_700,
   'inputOption.activeBorder': information.information_600,
   'inputValidation.errorBackground': danger.danger_900,
