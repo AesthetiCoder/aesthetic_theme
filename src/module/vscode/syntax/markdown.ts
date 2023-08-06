@@ -7,7 +7,7 @@ const markdown = [
     name: 'Markdown paragraph',
     scope: 'meta.paragraph.markdown',
     settings: {
-      foreground: gray.gray_300
+      foreground: gray.gray_400
     }
   },
   {

@@ -9,6 +9,10 @@ const fileName: FileIconInterface[] =
     name: 'react'
   },
   {
+    fileExtensions: [ 'tsx' ],
+    name: 'react_ts'
+  },
+  {
     enabledFor: [ IconPack.Qwik ],
     fileExtensions: [ 'tsx' ],
     name: 'qwik'

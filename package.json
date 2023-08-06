@@ -30,7 +30,7 @@
     "url": "https://github.com/AesthetiCoder/aesthetic_theme"
   },
   "engines": {
-    "vscode": "^1.74.0",
+    "vscode": "^1.81.0",
     "node": "^18.16.0",
     "npm": "please-use-pnpm",
     "yarn": "please-use-pnpm",
@@ -97,6 +97,7 @@
     "nodemon": "^2.0.22",
     "rimraf": "^4.4.1",
     "ts-node": "^10.9.1",
-    "typescript": "^5.1.6"
+    "typescript": "^5.1.6",
+    "vscode": "^1.1.37"
   }
 }

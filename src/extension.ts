@@ -1,4 +1,5 @@
 import { registered } from './global/command/command';
+import { generateIconTheme } from './global/util/generate_icon_theme';
 import { generateTheme } from './global/util/generate_theme';
 
 import type { ExtensionContext } from 'vscode';
@@ -8,6 +9,7 @@ export const activate = (context: ExtensionContext) =>
   context.subscriptions.push(...registered);
 
   generateTheme();
+  generateIconTheme();
 };
 
 export const deactivate = () =>

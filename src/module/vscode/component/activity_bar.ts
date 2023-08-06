@@ -7,10 +7,11 @@ const activityBar = {
   'activityBar.border': base.transparent,
   'activityBar.dropBackground': background.background_900,
   'activityBar.foreground': gray.gray_400,
-  'activityBar.inactiveForeground': gray.gray_600,
 
-  'activityBarBadge.background': information.information_500,
-  'activityBarBadge.foreground': gray.gray_400
+  'activityBar.inactiveForeground': gray.gray_600,
+  'activityBarBadge.background': information.information_600,
+
+  'activityBarBadge.foreground': gray.gray_300
 };
 
 export { activityBar };
