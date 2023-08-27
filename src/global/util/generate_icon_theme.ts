@@ -1,6 +1,6 @@
 import { mkdirSync, existsSync, writeFileSync } from 'node:fs';
 
-import { themeIcon } from '../../module/icon_file/icon_theme';
+import { IconTheme } from '../theme/icon_theme';
 
 const generateIconTheme = () =>
 {
@@ -12,7 +12,7 @@ const generateIconTheme = () =>
     mkdirSync('./dist', { recursive: false });
   }
 
-  writeFileSync('./dist/aesthetic_icon_theme.json', JSON.stringify(themeIcon, undefined, space));
+  writeFileSync('./dist/aesthetic_icon_theme.json', JSON.stringify(IconTheme, undefined, space));
 };
 
 export { generateIconTheme };

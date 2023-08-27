@@ -24,7 +24,7 @@ const global =
   'badge.background': information.information_500,
   'badge.foreground': gray.gray_200,
   'breadcrumb.background': background.background_900,
-  'breadcrumb.focusForeground': gray.gray_400,
+  'breadcrumb.focusForeground': gray.gray_300,
   'breadcrumb.foreground': gray.gray_400,
   'diffEditor.border': gray.gray_500,
   'diffEditor.insertedTextBackground': alpha(warning.warning_600, 0.35),

@@ -12,13 +12,12 @@ const theme =
     ...global
   },
   name: 'Aesthetic\'s Theme',
-  semanticHighlighting: true,
   tokenColors:
   [
+    ...jsTs,
     ...common,
     ...css,
     ...json,
-    ...jsTs,
     ...markdown
   ],
   type: 'dark'

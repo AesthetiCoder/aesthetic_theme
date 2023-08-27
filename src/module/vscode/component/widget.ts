@@ -10,7 +10,7 @@ const widget = {
   'editorSuggestWidget.highlightForeground': gray.gray_300,
   'editorSuggestWidget.selectedBackground': background.background_700,
   'editorWidget.background': background.background_900,
-  'editorWidget.border': gray.gray_500
+  'editorWidget.border': background.background_500
 };
 
 export { widget };

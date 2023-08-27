@@ -2,7 +2,7 @@ import type { FileIconInterface } from '../interface/file_icon_interface';
 
 import { IconPack } from '../constant/icon_pack';
 
-const fileName: FileIconInterface[] =
+const fileTheme: FileIconInterface[] =
 [
   {
     fileExtensions: [ 'jsx' ],
@@ -19,4 +19,4 @@ const fileName: FileIconInterface[] =
   }
 ];
 
-export { fileName };
+export { fileTheme };

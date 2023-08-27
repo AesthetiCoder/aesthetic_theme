@@ -9,7 +9,7 @@ const background = {
   background_600: '#272C36',
   background_700: '#15181d',
   background_800: '#101114',
-  background_900: '#0b0c0f'
+  background_900: '#07070a'
 };
 
 const gray = {
@@ -38,6 +38,10 @@ const cyan = {
   cyan_800: '#155E75',
   cyan_900: '#164E63',
   cyan_950: '#083344'
+};
+
+const blue = {
+  blue_500: '#ADD7FF'
 };
 
 const information = {
@@ -184,19 +188,20 @@ const amber = {
 
 export {
   sky,
-  rose,
-  lime,
-  cyan,
-  gray,
+  blue,
   base,
+  gray,
+  cyan,
+  lime,
+  rose,
   amber,
-  orange,
-  purple,
-  danger,
   indigo,
-  emerald,
-  success,
+  danger,
+  purple,
+  orange,
   warning,
+  success,
+  emerald,
   background,
   information
 };

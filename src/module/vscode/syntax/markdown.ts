@@ -13,7 +13,8 @@ const markdown = [
   {
     name: 'Markdown Titles',
     scope: [
-      'entity.name.section.markdown', 'punctuation.definition.heading.markdown'
+      'entity.name.section.markdown',
+      'punctuation.definition.heading.markdown'
     ],
     settings: {
       fontStyle: 'bold',
@@ -46,7 +47,9 @@ const markdown = [
   {
     name: 'Markdown string link',
     scope: [
-      'string.other.link.title.markdown', 'string.other.link.description.markdown', 'markup.inline.raw.string.markdown'
+      'string.other.link.title.markdown',
+      'string.other.link.description.markdown',
+      'markup.inline.raw.string.markdown'
     ],
     settings: {
       foreground: emerald.emerald_500
@@ -55,7 +58,8 @@ const markdown = [
   {
     name: 'Markdown link',
     scope: [
-      'markup.underline.link.markdown', 'markup.underline.link.image.markdown'
+      'markup.underline.link.markdown',
+      'markup.underline.link.image.markdown'
     ],
     settings: {
       foreground: information.information_500
@@ -78,7 +82,8 @@ const markdown = [
   {
     name: 'Markdown code definition',
     scope: [
-      'fenced_code.block.language.markdown', 'punctuation.definition.raw.markdown'
+      'fenced_code.block.language.markdown',
+      'punctuation.definition.raw.markdown'
     ],
     settings: {
       fontStyle: 'bold',
@@ -88,7 +93,8 @@ const markdown = [
   {
     name: 'Markdown List',
     scope: [
-      'markup.list.unnumbered.markdown', 'markup.list.numbered.markdown'
+      'markup.list.unnumbered.markdown',
+      'markup.list.numbered.markdown'
     ],
     settings: {
       fontStyle: 'bold',
@@ -97,9 +103,7 @@ const markdown = [
   },
   {
     name: 'Markdown quote',
-    scope: [
-      'markup.quote.markdown'
-    ],
+    scope: 'markup.quote.markdown',
     settings: {
       fontStyle: 'italic',
       foreground: purple.purple_500
