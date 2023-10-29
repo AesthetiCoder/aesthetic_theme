@@ -1,10 +1,12 @@
 import { readdirSync } from 'node:fs';
-import { resolve } from 'node:path';
+import { join } from 'node:path';
+
+import type { GenerateFolderTheme } from '../type/generate_folder_theme_type';
 
 import { FOLDER_ICON_PATH } from '../../../global/constant/path';
 import { folderTheme } from '../component/folder_theme';
 
-const generateFolderTheme = () =>
+const generateFolderTheme = (): GenerateFolderTheme =>
 {
   const folderConfiguration = {
     folderNames: {},
@@ -12,7 +14,7 @@ const generateFolderTheme = () =>
     iconDefinitions: {}
   };
 
-  readdirSync(resolve('__dirname', './../src/global/asset/folder_icon/')).forEach((file) =>
+  readdirSync(join(__dirname, '..', '..', '..', './global/asset/folder_icon/')).forEach((file) =>
   {
     const folderName = file.split('.')[0]?.toString() ?? '';
 

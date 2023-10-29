@@ -1,8 +1,5 @@
 # Todo
 
-[ ] better readme
-[ ] auto changelog
-[ ] auto release
+- [ ] better readme
 
-[ ] change the color of the folders
-[ ] add svgo to compress icons
+- [ ] Feature: allow to change the icon pack theme

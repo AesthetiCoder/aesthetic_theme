@@ -39,14 +39,14 @@
   "activationEvents": [
     "onStartupFinished"
   ],
-  "main": "./dist/extension",
+  "main": "./dist/extension.js",
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "postinstall": "git config core.hooksPath ./script/git_hook",
     "type-check": "tsc --pretty --noEmit",
     "lint": "eslint --color --ext .js,.ts --fix",
-    "generate": "nodemon",
-    "build": "rimraf dist && tsc",
+    "watch": "tsc -watch -p ./",
+    "compile": "tsc -p ./",
     "package": "rimraf aesthetic-theme-0.0.1.vsix && vsce package --no-dependencies"
   },
   "contributes": {
@@ -88,16 +88,12 @@
     }
   },
   "devDependencies": {
-    "@types/node": "^18.17.1",
-    "@types/vscode": "^1.80.0",
-    "@vscode/vsce": "^2.20.0",
-    "eslint": "^8.46.0",
-    "eslint-config-aesthetic-coder": "^1.2.14",
-    "eslint-config-typescript-coder-dev": "^0.0.2",
-    "nodemon": "^2.0.22",
-    "rimraf": "^4.4.1",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.1.6",
-    "vscode": "^1.1.37"
+    "@types/node": "20.8.9",
+    "@types/vscode": "1.83.1",
+    "@vscode/vsce": "2.21.1",
+    "eslint": "8.52.0",
+    "eslint-config-aesthetic-coder": "2.0.2",
+    "rimraf": "^5.0.5",
+    "typescript": "5.2.2"
   }
 }

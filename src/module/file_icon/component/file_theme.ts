@@ -1,8 +1,8 @@
-import type { FileIconInterface } from '../interface/file_icon_interface';
+import type { FileIconType } from '../type/file_icon_type';
 
 import { IconPack } from '../constant/icon_pack';
 
-const fileTheme: FileIconInterface[] =
+const fileTheme: FileIconType[] =
 [
   {
     fileExtensions: [ 'jsx' ],

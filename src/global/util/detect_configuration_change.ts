@@ -1,6 +1,6 @@
 import { generateIconTheme } from './generate_icon_theme';
 
-const detectConfigurationChange = () =>
+const detectConfigurationChange = (): void =>
 {
   generateIconTheme();
 };

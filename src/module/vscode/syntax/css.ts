@@ -1,5 +1,5 @@
 import {
-  cyan, gray, amber, purple, emerald, information
+  cyan, gray, amber, emerald, information
 } from '../../../global/theme/color';
 
 const css = [
@@ -140,15 +140,6 @@ const css = [
     ],
     settings: {
       foreground: gray.gray_300
-    }
-  },
-  {
-    scope: [
-      'meta.property-name.scss',
-      'meta.property-list.scss'
-    ],
-    settings: {
-      foreground: purple.purple_600
     }
   }
 ];

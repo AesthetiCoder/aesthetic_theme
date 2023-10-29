@@ -1,7 +1,12 @@
+/* eslint-disable max-len */
 import { workspace } from 'vscode';
 
-const getVscodeConfiguration = (section?: string) => workspace.getConfiguration(section);
+import type { ThemeConfigurationType } from '../type/theme_configuration_type';
 
-const getThemeConfig = (section: string) => getVscodeConfiguration('aesthetic-theme').inspect(section);
+import type { WorkspaceConfiguration } from 'vscode';
+
+const getVscodeConfiguration = (section?: string): WorkspaceConfiguration => workspace.getConfiguration(section);
+
+const getThemeConfig = (section: string): undefined | ThemeConfigurationType => getVscodeConfiguration('aesthetic-theme').inspect(section);
 
 export { getThemeConfig, getVscodeConfiguration };

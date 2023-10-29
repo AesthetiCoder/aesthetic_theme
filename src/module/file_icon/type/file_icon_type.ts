@@ -1,7 +1,7 @@
 import type { RequireAtLeastOne } from '../../../global/interface/require_at_least_one';
 import type { IconPack } from '../constant/icon_pack';
 
-interface FileIcon
+type FileIcon =
 {
   name: string;
   light?: boolean;
@@ -10,9 +10,9 @@ interface FileIcon
   highContrast?: boolean;
   enabledFor?: IconPack[];
   fileExtensions?: string[];
-}
+};
 
-export type FileIconInterface = RequireAtLeastOne<
+export type FileIconType = RequireAtLeastOne<
 FileIcon,
 'fileNames' | 'fileExtensions'
 >;

@@ -4,7 +4,7 @@ import { join } from 'node:path';
 import { IconTheme } from '../theme/icon_theme';
 import { isFolder } from '../validator/is_folder';
 
-const generateIconTheme = (): void =>
+const buildIcon = (): void =>
 {
   const space = 2;
 
@@ -18,4 +18,4 @@ const generateIconTheme = (): void =>
   writeFileSync(path, JSON.stringify(IconTheme, undefined, space));
 };
 
-export { generateIconTheme };
+export { buildIcon };
