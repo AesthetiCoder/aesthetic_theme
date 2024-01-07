@@ -4,7 +4,6 @@ import { join } from 'node:path';
 import type { GenerateFileThemeType } from '../type/generate_file_theme_type';
 
 import { FILE_ICON_PATH } from '../../../global/constant/path';
-import { getThemeConfig } from '../../../global/util/get_vscode_configuration';
 import { fileTheme } from '../component/file_theme';
 
 const generateFileTheme = (): GenerateFileThemeType =>
@@ -17,8 +16,10 @@ const generateFileTheme = (): GenerateFileThemeType =>
     languageIds: {}
   };
 
-  const iconPack = getThemeConfig('activeIconPack');
-  // workspaceValue globalValue defaultValue
+  /*
+   * const iconPack = getThemeConfig('activeIconPack');
+   * workspaceValue globalValue defaultValue
+   */
 
   readdirSync(join(__dirname, '..', '..', '..', './global/asset/file_icon/')).forEach((file) =>
   {
@@ -30,15 +31,15 @@ const generateFileTheme = (): GenerateFileThemeType =>
       [folderName]: { iconPath: `${FILE_ICON_PATH}/${file}` }
     };
 
-    const value = iconPack?.workspaceValue ?
-      iconPack.workspaceValue :
-      iconPack?.globalValue ?
-        iconPack.globalValue :
-iconPack?.defaultValue;
+    /*
+     *     const value = iconPack?.workspaceValue ?
+     *       iconPack.workspaceValue :
+     *       iconPack?.globalValue ?
+     *         iconPack.globalValue :
+     * iconPack?.defaultValue;
+     */
 
-    const iconFilter = fileTheme.filter((icon) => icon.enabledFor.includes(iconPack));
-
-    console.log(iconFilter);
+    //     const iconFilter = fileTheme.filter((icon) => icon.enabledFor.includes(iconPack));
 
     fileTheme.forEach((fileInfo) =>
     {
