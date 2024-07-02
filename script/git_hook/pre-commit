@@ -1,8 +1,0 @@
-#!/bin/bash
-
-source $(dirname $0)/../module/eslint.sh
-source $(dirname $0)/../module/stylelint.sh
-source $(dirname $0)/../module/tsc.sh
-
-tsc_hook
-eslint_hook
