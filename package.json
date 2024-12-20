@@ -30,8 +30,8 @@
     "url": "https://github.com/AesthetiCoder/aesthetic_theme"
   },
   "engines": {
-    "vscode": "^1.81.0",
-    "node": "^18.16.0",
+    "vscode": "^1.96.2",
+    "node": "^20.10.0",
     "npm": "please-use-pnpm",
     "yarn": "please-use-pnpm",
     "pnpm": ">=7.14.0"
@@ -45,6 +45,8 @@
     "postinstall": "git config core.hooksPath ./script/git_hook",
     "type-check": "tsc --pretty --noEmit",
     "lint": "eslint --color --ext .js,.ts --fix",
+    "generate": "pnpx nodemon",
+    "build": "rimraf dist && tsc",
     "watch": "tsc -watch -p ./",
     "compile": "tsc -p ./",
     "package": "rimraf aesthetic-theme-0.0.1.vsix && vsce package --no-dependencies"
@@ -89,10 +91,8 @@
   },
   "devDependencies": {
     "@types/node": "20.8.9",
-    "@types/vscode": "1.83.1",
-    "@vscode/vsce": "2.21.1",
-    "eslint": "8.52.0",
-    "eslint-config-aesthetic-coder": "2.0.2",
+    "@types/vscode": "1.96.0",
+    "@vscode/vsce": "3.2.1",
     "rimraf": "^5.0.5",
     "typescript": "5.2.2"
   }
